@@ -1,0 +1,18 @@
+# LunarAI - SIH 26166 dependencies
+# Python 3.11+ (tested on 3.14, Anaconda)
+torch
+torchvision
+opencv-python
+numpy
+pandas
+scikit-image
+scikit-learn
+matplotlib
+plotly
+streamlit
+faiss-cpu
+reportlab
+pyyaml
+pillow
+kornia
+# LightGlue is vendored under third_party/lightglue (from github.com/cvg/LightGlue)

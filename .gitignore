@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large data files
+data/*.img
+data/*.IMG
+data/*.raw
+data/*.RAW
+data/*.dat
+data/*.DAT
+data/*.zip
+data/*.tar
+data/*.tar.gz
+data/*.7z
+
+# Generated patches (too many)
+patches/**/*.png
+patches/**/*.jpg
+patches/**/*.jpeg
+
+# Model checkpoints (use Git LFS if needed)
+models/*.pth
+models/*.pt
+models/*.pkl
+models/*.h5
+
+# Database files
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Uploads and temporary files
+outputs/uploads/*
+outputs/uploads/runs/*
+!outputs/uploads/.gitkeep
+
+# Logs
+logs/*.log
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude
+.claude/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Large outputs
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.jpeg
+outputs/**/*.tiff
+outputs/**/*.tif
+!outputs/reports/*.md
+!outputs/reports/*.csv
+
+# Third party
+third_party/
+
+# Freebuff
+.freebuff/
+
+# App builds
+app_build.py
