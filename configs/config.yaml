@@ -1,0 +1,63 @@
+# LunarAI - SIH 26166 - Global Configuration
+project:
+  name: LunarAI
+  problem_statement: SIH 26166
+
+paths:
+  data_root: "D:/lunar ai/data"
+  outputs_root: "D:/lunar ai/outputs"
+  models_dir: "D:/lunar ai/models"
+  database_dir: "D:/lunar ai/database"
+  experiments_dir: "D:/lunar ai/experiments"
+  logs_dir: "D:/lunar ai/logs"
+
+dataset:
+  sensors: [ohrc, tmc, iirs, lro]
+  patch_size: 256
+  stride: 128
+  max_patches_per_image: 150      # laptop-feasibility cap; raise for full extraction
+  min_std: 4.0                    # skip near-blank patches
+  resize_long_side: 2048          # working resolution for OHRC/TMC .img
+  processed_format: png
+
+preprocessing:
+  clahe_clip_limit: 2.0
+  clahe_grid: 8
+  denoise: median
+  denoise_ksize: 3
+
+lunadna:
+  backbone: resnet18
+  embedding_dim: 512
+  input_size: 224
+  margin: 0.3
+  lr: 0.0001
+  weight_decay: 0.00001
+  batch_size: 32
+  epochs: 60                      # early-stopped; plan allows up to 120
+  patience: 8
+  num_workers: 0
+  train_frac: 0.70
+  val_frac: 0.15
+
+faiss:
+  index_type: IndexFlatIP
+  top_k: 10
+
+matching:
+  superpoint_max_kp: 2048
+  lightglue_threshold: 0.2
+  anms_target: 300
+  anms_gamma: 1.6
+  anms_min_radius: 14     # px: guarantees a real spatial spread, not just a cap
+  magsac_threshold: 4.0
+  ecc_iterations: 100
+  ecc_epsilon: 0.0001
+  min_matches: 10         # below this a homography is not constrained by the data
+  min_inliers: 8
+  quad_area_ratio: [0.05, 20.0]   # accepted |H| mapping of the frame area
+
+evaluation:
+  rmse_target: 1.0
+  inlier_ratio_target: 0.85
+  coverage_target: 0.80

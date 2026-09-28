@@ -1,0 +1,6 @@
+{
+  "pairs_matched": 40,
+  "total_matches": 5937,
+  "mean_matches": 148.4,
+  "backend": "superpoint+lightglue"
+}

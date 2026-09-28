@@ -1,0 +1,7 @@
+method,pairs,recall,median_rmse_px,median_gt_rmse_px,inlier_ratio_3px,mean_coverage,mean_runtime_s,rank
+sift_ransac,25,0.88,0.3755,0.3755,0.6888,0.5156,0.068,1
+lunarai_full,25,0.68,0.2941,0.2941,0.8948,0.6829,14.114,2
+orb_ransac,25,0.68,1.0652,1.0652,0.5999,0.4154,0.046,3
+splg_ransac,25,0.64,0.5314,0.5314,0.9121,0.6875,5.054,4
+superglue_ransac,25,0.6,2.4618,2.4618,0.3213,0.6875,0.878,5
+akaze_ransac,25,0.0,,,,,0.0,6

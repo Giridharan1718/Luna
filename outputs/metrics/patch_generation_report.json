@@ -1,0 +1,14 @@
+{
+  "total_patches": 940,
+  "per_sensor": {
+    "IIRS": 229,
+    "LRO NAC": 36,
+    "OHRC": 35,
+    "TMC-2": 640
+  },
+  "patch_size": 256,
+  "stride": 128,
+  "with_latitude": 904,
+  "with_sun_angle": 772,
+  "with_elevation": 0
+}

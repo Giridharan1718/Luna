@@ -1,0 +1,7 @@
+{
+  "n_vectors": 940,
+  "dim": 512,
+  "backend": "faiss",
+  "top_k": 10,
+  "mean_self_similarity": 1.0
+}

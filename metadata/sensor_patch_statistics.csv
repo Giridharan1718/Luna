@@ -1,0 +1,4 @@
+sensor,patch_count,image_count,mean_intensity_mean,mean_intensity_std,mean_intensity_min,mean_intensity_max,std_deviation_mean,std_deviation_std,entropy_mean,entropy_std,texture_score_mean,texture_score_std
+LRO,10,1,98.602,5.262,92.225,110.801,37.077,5.469,7.114,0.19,94.442,15.494
+OHRC,296,3,73.634,40.54,10.307,169.017,29.091,7.284,6.279,0.966,70.936,23.629
+TMC,667,7,92.299,21.616,37.639,136.256,15.957,6.302,5.093,0.495,36.944,12.448

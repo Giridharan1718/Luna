@@ -1,0 +1,6 @@
+sun_bin,catalog_share,catalog_patches,pairs_built,pairs_solved,median_rmse_gt_px,mean_inlier_ratio_3px,median_coverage,retrieval_top1,retrieval_top5
+0-10,0.015,11,4,4,0.163,0.996,0.516,0.091,1.0
+10-20,0.0,0,0,0,,,,,
+20-40,0.914,684,4,4,0.253,0.931,0.594,0.6,0.85
+40-60,0.071,53,4,4,0.182,0.961,0.969,1.0,1.0
+60+,0.0,0,0,0,,,,,

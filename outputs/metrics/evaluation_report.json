@@ -1,0 +1,920 @@
+{
+  "summary": {
+    "problem_statement": "SIH 26166",
+    "n_pairs_evaluated": 27,
+    "rmse_px_mean": 26.5198,
+    "inlier_ratio_mean": 0.8801,
+    "coverage_score_mean": 0.2257,
+    "uniformity_score_mean": 0.1613,
+    "match_count_mean": 219.1481,
+    "ssim_mean": 0.4309,
+    "ncc_mean": 0.4846,
+    "confidence_mean": 45.637,
+    "targets": {
+      "rmse_px": 1.0,
+      "inlier_ratio": 0.85,
+      "coverage": 0.8
+    },
+    "rmse_target_met": false,
+    "inlier_target_met": true,
+    "coverage_target_met": false
+  },
+  "per_pair": [
+    {
+      "pair": "feat_002",
+      "query_image": "TMC-2_ch2_tmc_ncf_20211122T2123225722_d_img_d18_01536_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20211122T2123225722_d_img_d18_01664_00000.png",
+      "rmse_px": 0.162,
+      "inlier_matches": 178,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.406,
+      "uniformity_score": 0.23,
+      "match_count": 178,
+      "ssim": 0.4890919135317939,
+      "ncc": 0.9997252987487858,
+      "ecc_correlation": 0.0,
+      "confidence": 78.5,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_002_ecc_registered.png",
+      "homography": [
+        [
+          1.0013733077322406,
+          0.0005750631609172991,
+          -0.11012382235578183
+        ],
+        [
+          0.0001170674419971336,
+          1.000688583768656,
+          -128.06288075704313
+        ],
+        [
+          1.6472007152264877e-06,
+          5.574836703649066e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "feat_003",
+      "query_image": "IIRS_ch2_iir_nri_20240124T1430209615_d_img_d18_11904_00000",
+      "reference_image": "IIRS_ch2_iir_nri_20240124T1430209615_d_img_d18_12032_00000.png",
+      "rmse_px": 0.006,
+      "inlier_matches": 12,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.078,
+      "uniformity_score": 0.044,
+      "match_count": 12,
+      "ssim": 0.47351076902291056,
+      "ncc": 0.9133069141027074,
+      "ecc_correlation": 0.0,
+      "confidence": 63.1,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_003_ecc_registered.png",
+      "homography": [
+        [
+          0.9078732096077623,
+          -0.04096461777653961,
+          12.734182619748333
+        ],
+        [
+          -0.0060187540478471736,
+          0.9295894680307232,
+          -117.48414440538477
+        ],
+        [
+          -0.0001461871963964804,
+          -0.00020007242758414325,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "feat_004",
+      "query_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_01792_00000",
+      "reference_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_01664_00000.png",
+      "rmse_px": 3.42,
+      "inlier_matches": 33,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.141,
+      "uniformity_score": 0.068,
+      "match_count": 33,
+      "ssim": 0.4330252027225387,
+      "ncc": 0.8661280619635694,
+      "ecc_correlation": 0.3947,
+      "confidence": 38.8,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_004_ecc_registered.png",
+      "homography": [
+        [
+          1.328334093093872,
+          0.0893947035074234,
+          -16.23751449584961
+        ],
+        [
+          0.061165135353803635,
+          1.4296213388442993,
+          140.99282836914062
+        ],
+        [
+          0.00031507329549640417,
+          0.0010303896851837635,
+          1.131889820098877
+        ]
+      ]
+    },
+    {
+      "pair": "feat_005",
+      "query_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_05888_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_05760_00000.png",
+      "rmse_px": 116.709,
+      "inlier_matches": 6,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.031,
+      "uniformity_score": 0.026,
+      "match_count": 6,
+      "ssim": 0.4654307259153128,
+      "ncc": -0.12637705279787784,
+      "ecc_correlation": 0.595,
+      "confidence": 34.4,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_005_ecc_registered.png",
+      "homography": [
+        [
+          -0.15271317958831787,
+          0.012054591439664364,
+          36.23189926147461
+        ],
+        [
+          -1.1242941617965698,
+          0.8426916003227234,
+          208.9893035888672
+        ],
+        [
+          -0.010250159539282322,
+          0.0070006330497562885,
+          1.8960810899734497
+        ]
+      ]
+    },
+    {
+      "pair": "feat_006",
+      "query_image": "IIRS_ch2_iir_nri_20240124T1430209615_d_img_d18_00896_00000",
+      "reference_image": "IIRS_ch2_iir_nri_20240124T1430209615_d_img_d18_01024_00000.png",
+      "rmse_px": 14.165,
+      "inlier_matches": 163,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.422,
+      "uniformity_score": 0.208,
+      "match_count": 163,
+      "ssim": 0.39203235364462574,
+      "ncc": 0.9451912625774538,
+      "ecc_correlation": 0.8887,
+      "confidence": 55.0,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_006_ecc_registered.png",
+      "homography": [
+        [
+          0.8214452862739563,
+          -0.3216550946235657,
+          57.09965896606445
+        ],
+        [
+          -0.03120238333940506,
+          0.6843626499176025,
+          -80.5257339477539
+        ],
+        [
+          -0.00013699967530556023,
+          -0.0030838618986308575,
+          1.3944931030273438
+        ]
+      ]
+    },
+    {
+      "pair": "feat_007",
+      "query_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_10496_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20211122T1925079181_d_img_d18_12227_00000.png",
+      "rmse_px": 42.836,
+      "inlier_matches": 5,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.031,
+      "uniformity_score": 0.022,
+      "match_count": 5,
+      "ssim": 0.7227981774276373,
+      "ncc": 0.12295227733108585,
+      "ecc_correlation": 0.2422,
+      "confidence": 32.5,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_007_ecc_registered.png",
+      "homography": [
+        [
+          -0.10598460584878922,
+          0.2830004394054413,
+          -12.450766563415527
+        ],
+        [
+          -5.040584087371826,
+          2.434021234512329,
+          375.21868896484375
+        ],
+        [
+          -0.039021894335746765,
+          0.014883282594382763,
+          3.39152455329895
+        ]
+      ]
+    },
+    {
+      "pair": "feat_008",
+      "query_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_06400_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_06528_00000.png",
+      "rmse_px": 0.152,
+      "inlier_matches": 300,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.5,
+      "uniformity_score": 0.384,
+      "match_count": 856,
+      "ssim": 0.4894981831106631,
+      "ncc": 0.9999359330741817,
+      "ecc_correlation": 0.0,
+      "confidence": 81.0,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_008_ecc_registered.png",
+      "homography": [
+        [
+          1.0000581388437753,
+          0.00012682329427750387,
+          -0.024411061709588903
+        ],
+        [
+          4.6124399743651735e-05,
+          0.999638134765605,
+          -127.9329427851496
+        ],
+        [
+          4.740645483232665e-07,
+          -1.326094058496678e-07,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "feat_009",
+      "query_image": "IIRS_ch2_iir_nri_20240124T1430209615_d_img_d18_11648_00000",
+      "reference_image": "IIRS_ch2_iir_nri_20240124T1430209615_d_img_d18_11776_00000.png",
+      "rmse_px": 0.0,
+      "inlier_matches": 7,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.047,
+      "uniformity_score": 0.033,
+      "match_count": 7,
+      "ssim": 0.4906772951340334,
+      "ncc": 0.9999999999999999,
+      "ecc_correlation": 0.0,
+      "confidence": 61.9,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_009_ecc_registered.png",
+      "homography": [
+        [
+          1.000000000000051,
+          3.170421958678658e-14,
+          -7.177734101470521e-12
+        ],
+        [
+          1.2387290214921716e-14,
+          1.0000000000000637,
+          -128.00000000001125
+        ],
+        [
+          4.0275851465574195e-17,
+          1.9719042756165402e-16,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "feat_012",
+      "query_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_00256_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_00000_00000.png",
+      "rmse_px": 80.988,
+      "inlier_matches": 4,
+      "inlier_ratio": 0.8,
+      "coverage_score": 0.047,
+      "uniformity_score": 0.034,
+      "match_count": 5,
+      "ssim": 0.8067689278504031,
+      "ncc": -0.05086696520999559,
+      "ecc_correlation": 0.0613,
+      "confidence": 25.9,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_012_ecc_registered.png",
+      "homography": [
+        [
+          10.636018753051758,
+          2.9613914489746094,
+          -1086.23486328125
+        ],
+        [
+          -3.2566275596618652,
+          8.183624267578125,
+          36.195011138916016
+        ],
+        [
+          -0.03614744544029236,
+          -0.004634966142475605,
+          11.353845596313477
+        ]
+      ]
+    },
+    {
+      "pair": "feat_014",
+      "query_image": "OHRC_ch2_ohr_ncp_20251010T0942085687_d_img_d18_01792_00000",
+      "reference_image": "OHRC_ch2_ohr_ncp_20251010T0942085687_d_img_d18_01901_00000.png",
+      "rmse_px": 59.368,
+      "inlier_matches": 298,
+      "inlier_ratio": 0.993,
+      "coverage_score": 0.547,
+      "uniformity_score": 0.403,
+      "match_count": 978,
+      "ssim": 0.23876560418468742,
+      "ncc": 0.8071619646726688,
+      "ecc_correlation": 0.8426,
+      "confidence": 57.7,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_014_ecc_registered.png",
+      "homography": [
+        [
+          1.0352756977081299,
+          -0.705745279788971,
+          157.84190368652344
+        ],
+        [
+          0.5105531811714172,
+          1.6276754140853882,
+          -285.8435363769531
+        ],
+        [
+          -0.00034844590118154883,
+          0.002227173186838627,
+          0.7568004727363586
+        ]
+      ]
+    },
+    {
+      "pair": "feat_016",
+      "query_image": "TMC-2_ch2_tmc_ncf_20211122T2123225722_d_img_d18_09472_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20211122T2123225722_d_img_d18_08832_00000.png",
+      "rmse_px": 0.0,
+      "inlier_matches": 4,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.047,
+      "uniformity_score": 0.039,
+      "match_count": 4,
+      "ssim": 0.44926572676596743,
+      "ncc": -0.29676288044061105,
+      "ecc_correlation": 0.0,
+      "confidence": 61.6,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_016_ecc_registered.png",
+      "homography": [
+        [
+          0.30385383135453226,
+          -0.31287809858604354,
+          41.47583440285737
+        ],
+        [
+          -0.6574099493292228,
+          0.15736096697905702,
+          64.28245280914014
+        ],
+        [
+          -0.0012516100581013926,
+          -0.0032863257353913235,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "feat_017",
+      "query_image": "LRONAC_quickmap-lroc_00000_00640",
+      "reference_image": "LRONAC_quickmap-lroc_00128_00768.png",
+      "rmse_px": 2.311,
+      "inlier_matches": 298,
+      "inlier_ratio": 0.993,
+      "coverage_score": 0.266,
+      "uniformity_score": 0.211,
+      "match_count": 379,
+      "ssim": 0.15007891139371005,
+      "ncc": 0.8074973035374309,
+      "ecc_correlation": 0.2168,
+      "confidence": 54.4,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_017_ecc_registered.png",
+      "homography": [
+        [
+          0.9139575958251953,
+          0.05556038022041321,
+          -123.71256256103516
+        ],
+        [
+          -0.07657202333211899,
+          1.0324950218200684,
+          -119.46483612060547
+        ],
+        [
+          -0.0009977908339351416,
+          0.0008490114705637097,
+          1.0190438032150269
+        ]
+      ]
+    },
+    {
+      "pair": "feat_019",
+      "query_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_00128_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_00256_00000.png",
+      "rmse_px": 48.619,
+      "inlier_matches": 17,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.156,
+      "uniformity_score": 0.111,
+      "match_count": 17,
+      "ssim": 0.2581906946273267,
+      "ncc": 0.43259522135175726,
+      "ecc_correlation": 0.4351,
+      "confidence": 37.8,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_019_ecc_registered.png",
+      "homography": [
+        [
+          0.6980606317520142,
+          -0.6677507162094116,
+          129.2716522216797
+        ],
+        [
+          -0.4768751859664917,
+          -0.08189073950052261,
+          148.67886352539062
+        ],
+        [
+          -0.00022667675511911511,
+          -0.004409505520015955,
+          1.564416766166687
+        ]
+      ]
+    },
+    {
+      "pair": "feat_021",
+      "query_image": "TMC-2_ch2_tmc_ncn_20211123T0119537815_d_img_d18_09344_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncn_20211123T0119537815_d_img_d18_09216_00000.png",
+      "rmse_px": 22.733,
+      "inlier_matches": 18,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.172,
+      "uniformity_score": 0.13,
+      "match_count": 18,
+      "ssim": 0.4345974333436638,
+      "ncc": 0.3162014788179213,
+      "ecc_correlation": 0.0933,
+      "confidence": 36.6,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_021_ecc_registered.png",
+      "homography": [
+        [
+          0.7057244777679443,
+          0.28331026434898376,
+          34.25130081176758
+        ],
+        [
+          -0.433424711227417,
+          2.0170605182647705,
+          154.28182983398438
+        ],
+        [
+          -0.0023491180036216974,
+          0.0029153835494071245,
+          1.3731690645217896
+        ]
+      ]
+    },
+    {
+      "pair": "feat_023",
+      "query_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_00640_00000",
+      "reference_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_02944_00000.png",
+      "rmse_px": 8.23,
+      "inlier_matches": 5,
+      "inlier_ratio": 0.833,
+      "coverage_score": 0.062,
+      "uniformity_score": 0.052,
+      "match_count": 6,
+      "ssim": 0.21526234462198246,
+      "ncc": 0.025818451242468492,
+      "ecc_correlation": 0.2081,
+      "confidence": 28.1,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_023_ecc_registered.png",
+      "homography": [
+        [
+          -0.026508061215281487,
+          -0.45483243465423584,
+          84.2306900024414
+        ],
+        [
+          -0.09016599506139755,
+          -0.6365570425987244,
+          120.27362823486328
+        ],
+        [
+          -0.00042100404971279204,
+          -0.006215063389390707,
+          1.0642845630645752
+        ]
+      ]
+    },
+    {
+      "pair": "feat_024",
+      "query_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_11136_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_11008_00000.png",
+      "rmse_px": 0.315,
+      "inlier_matches": 213,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.438,
+      "uniformity_score": 0.292,
+      "match_count": 213,
+      "ssim": 0.49039006383724626,
+      "ncc": 0.9661432366520888,
+      "ecc_correlation": 0.0,
+      "confidence": 77.8,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_024_ecc_registered.png",
+      "homography": [
+        [
+          1.0010605803658097,
+          0.0001345878164805499,
+          -0.037682018027177556
+        ],
+        [
+          0.0003957772304675419,
+          1.0022337658391642,
+          127.94924333674065
+        ],
+        [
+          2.2390905213361553e-06,
+          6.29038912515115e-06,
+          1.0
+        ]
+      ]
+    },
+    {
+      "pair": "feat_026",
+      "query_image": "TMC-2_ch2_tmc_ncn_20211123T0119537815_d_img_d18_03328_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncn_20211123T0119537815_d_img_d18_03456_00000.png",
+      "rmse_px": 50.117,
+      "inlier_matches": 0,
+      "inlier_ratio": 0.0,
+      "coverage_score": 0.031,
+      "uniformity_score": 0.026,
+      "match_count": 3,
+      "ssim": 0.3382428576807007,
+      "ncc": 0.18225641114462643,
+      "ecc_correlation": 0.336,
+      "confidence": 2.5,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_026_ecc_registered.png",
+      "homography": [
+        [
+          1.78435218334198,
+          0.8527194857597351,
+          -242.24148559570312
+        ],
+        [
+          0.3616960942745209,
+          1.8280831575393677,
+          -331.8150634765625
+        ],
+        [
+          0.0033726971596479416,
+          1.212863571709022e-05,
+          0.9984475374221802
+        ]
+      ]
+    },
+    {
+      "pair": "feat_027",
+      "query_image": "OHRC_ch2_ohr_ncp_20241115T1326321339_d_img_d18_01152_00000",
+      "reference_image": "OHRC_ch2_ohr_ncp_20241115T1525004388_d_img_d18_01152_00000.png",
+      "rmse_px": 4.026,
+      "inlier_matches": 285,
+      "inlier_ratio": 0.95,
+      "coverage_score": 0.797,
+      "uniformity_score": 0.577,
+      "match_count": 795,
+      "ssim": 0.4642985769194189,
+      "ncc": 0.9575212200858338,
+      "ecc_correlation": 0.8603,
+      "confidence": 62.7,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_027_ecc_registered.png",
+      "homography": [
+        [
+          0.8812593221664429,
+          -0.1107678934931755,
+          19.233850479125977
+        ],
+        [
+          0.19711777567863464,
+          1.0140013694763184,
+          -75.24585723876953
+        ],
+        [
+          -0.00028376560658216476,
+          -0.000366510939784348,
+          1.0301300287246704
+        ]
+      ]
+    },
+    {
+      "pair": "feat_028",
+      "query_image": "LRONAC_quickmap-lroc_00128_00768",
+      "reference_image": "LRONAC_quickmap-lroc_00128_00896.png",
+      "rmse_px": 0.404,
+      "inlier_matches": 300,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.5,
+      "uniformity_score": 0.449,
+      "match_count": 1031,
+      "ssim": 0.47399729118486145,
+      "ncc": 0.9656037227019104,
+      "ecc_correlation": 0.5078,
+      "confidence": 81.0,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_028_ecc_registered.png",
+      "homography": [
+        [
+          0.998110830783844,
+          0.002023435430601239,
+          -127.94500732421875
+        ],
+        [
+          0.004309235140681267,
+          0.9947774410247803,
+          -0.357233464717865
+        ],
+        [
+          6.720833425788442e-06,
+          -8.25210827315459e-06,
+          0.9995175004005432
+        ]
+      ]
+    },
+    {
+      "pair": "feat_029",
+      "query_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_08576_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_10240_00000.png",
+      "rmse_px": 37.838,
+      "inlier_matches": 7,
+      "inlier_ratio": 0.778,
+      "coverage_score": 0.094,
+      "uniformity_score": 0.078,
+      "match_count": 9,
+      "ssim": 0.08211830667348524,
+      "ncc": -0.15194335982664253,
+      "ecc_correlation": 0.4342,
+      "confidence": 28.6,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_029_ecc_registered.png",
+      "homography": [
+        [
+          -0.2383277267217636,
+          0.41665446758270264,
+          55.87009811401367
+        ],
+        [
+          0.24329368770122528,
+          0.4790195822715759,
+          -75.46190643310547
+        ],
+        [
+          -0.00499067734926939,
+          0.005358478985726833,
+          1.1640299558639526
+        ]
+      ]
+    },
+    {
+      "pair": "feat_031",
+      "query_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_10624_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncn_20211122T1925079214_d_img_d18_10496_00000.png",
+      "rmse_px": 23.901,
+      "inlier_matches": 19,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.094,
+      "uniformity_score": 0.068,
+      "match_count": 19,
+      "ssim": 0.5082151222880108,
+      "ncc": 0.44584768437657135,
+      "ecc_correlation": 0.6112,
+      "confidence": 37.3,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_031_ecc_registered.png",
+      "homography": [
+        [
+          1.2605046033859253,
+          -0.3426181674003601,
+          5.998924732208252
+        ],
+        [
+          0.6155239343643188,
+          1.2944934368133545,
+          21.69504165649414
+        ],
+        [
+          0.0017858351347967982,
+          -0.0008286538068205118,
+          0.8737650513648987
+        ]
+      ]
+    },
+    {
+      "pair": "feat_032",
+      "query_image": "TMC-2_ch2_tmc_ncf_20211122T1925079181_d_img_d18_07168_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20211122T1925079181_d_img_d18_04992_00000.png",
+      "rmse_px": 26.962,
+      "inlier_matches": 4,
+      "inlier_ratio": 0.667,
+      "coverage_score": 0.047,
+      "uniformity_score": 0.031,
+      "match_count": 6,
+      "ssim": 0.721081957178223,
+      "ncc": 0.4579550945922729,
+      "ecc_correlation": 0.4898,
+      "confidence": 24.0,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_032_ecc_registered.png",
+      "homography": [
+        [
+          79.02947998046875,
+          -46.775753021240234,
+          132.61788940429688
+        ],
+        [
+          11.189539909362793,
+          -5.483565807342529,
+          -110.97868347167969
+        ],
+        [
+          0.4458983838558197,
+          -0.30757954716682434,
+          8.183037757873535
+        ]
+      ]
+    },
+    {
+      "pair": "feat_034",
+      "query_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_09088_00000",
+      "reference_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_01024_00000.png",
+      "rmse_px": 38.459,
+      "inlier_matches": 6,
+      "inlier_ratio": 0.75,
+      "coverage_score": 0.094,
+      "uniformity_score": 0.078,
+      "match_count": 8,
+      "ssim": 0.03663537319530088,
+      "ncc": 0.06893979270312814,
+      "ecc_correlation": 0.5017,
+      "confidence": 28.0,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_034_ecc_registered.png",
+      "homography": [
+        [
+          2.3247525691986084,
+          0.8628545999526978,
+          124.81565856933594
+        ],
+        [
+          0.44887667894363403,
+          3.2675185203552246,
+          24.143156051635742
+        ],
+        [
+          0.014124264940619469,
+          0.0025716593954712152,
+          1.0513893365859985
+        ]
+      ]
+    },
+    {
+      "pair": "feat_035",
+      "query_image": "TMC-2_ch2_tmc_ncf_20211122T2321361810_d_img_d18_11904_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20211122T2321361810_d_img_d18_12032_00000.png",
+      "rmse_px": 85.857,
+      "inlier_matches": 196,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.453,
+      "uniformity_score": 0.232,
+      "match_count": 196,
+      "ssim": 0.31613888984206556,
+      "ncc": 0.18025145868206943,
+      "ecc_correlation": 0.4334,
+      "confidence": 53.5,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_035_ecc_registered.png",
+      "homography": [
+        [
+          0.8510338068008423,
+          1.0414214134216309,
+          -159.5741729736328
+        ],
+        [
+          -0.24080131947994232,
+          2.9148974418640137,
+          -418.296875
+        ],
+        [
+          -0.003253702074289322,
+          0.009570891037583351,
+          -0.22488074004650116
+        ]
+      ]
+    },
+    {
+      "pair": "feat_036",
+      "query_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_04096_00000",
+      "reference_image": "TMC-2_ch2_tmc_ncf_20260701T0716265753_d_img_d18_04608_00000.png",
+      "rmse_px": 27.613,
+      "inlier_matches": 0,
+      "inlier_ratio": 0.0,
+      "coverage_score": 0.047,
+      "uniformity_score": 0.047,
+      "match_count": 3,
+      "ssim": 0.8381433349619571,
+      "ncc": 0.475590766027185,
+      "ecc_correlation": 0.2761,
+      "confidence": 2.6,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_036_ecc_registered.png",
+      "homography": [
+        [
+          0.21650336682796478,
+          -0.05262485519051552,
+          0.41067442297935486
+        ],
+        [
+          -0.3159429728984833,
+          0.09980176389217377,
+          54.42585372924805
+        ],
+        [
+          -0.002996832365170121,
+          -0.002528213895857334,
+          0.8227832913398743
+        ]
+      ]
+    },
+    {
+      "pair": "feat_037",
+      "query_image": "TMC-2_ch2_tmc_ncn_20211123T0119537815_d_img_d18_08192_00000",
+      "reference_image": "TMC-2_ch2_tmc_nca_20240124T0838058366_d_img_d18_02944_00000.png",
+      "rmse_px": 17.868,
+      "inlier_matches": 4,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.047,
+      "uniformity_score": 0.039,
+      "match_count": 4,
+      "ssim": 0.6539789033359156,
+      "ncc": 0.070581454838458,
+      "ecc_correlation": 0.3662,
+      "confidence": 33.4,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_037_ecc_registered.png",
+      "homography": [
+        [
+          -1.0909210443496704,
+          0.10715391486883163,
+          172.11170959472656
+        ],
+        [
+          -0.6931642889976501,
+          0.05829012021422386,
+          108.65054321289062
+        ],
+        [
+          -0.0059819696471095085,
+          0.0010657544480636716,
+          0.9129327535629272
+        ]
+      ]
+    },
+    {
+      "pair": "feat_038",
+      "query_image": "LRONAC_quickmap-lroc_00000_00128",
+      "reference_image": "LRONAC_quickmap-lroc_00128_00128.png",
+      "rmse_px": 2.975,
+      "inlier_matches": 300,
+      "inlier_ratio": 1.0,
+      "coverage_score": 0.5,
+      "uniformity_score": 0.443,
+      "match_count": 963,
+      "ssim": 0.2033098524824088,
+      "ncc": 0.7016337044017259,
+      "ecc_correlation": 0.1408,
+      "confidence": 53.5,
+      "registered_path": "D:\\lunar ai\\outputs\\registration\\feat_038_ecc_registered.png",
+      "homography": [
+        [
+          0.9808183908462524,
+          -0.036159541457891464,
+          4.603723526000977
+        ],
+        [
+          0.012387881055474281,
+          0.9880833625793457,
+          -127.87638092041016
+        ],
+        [
+          -7.018138421699405e-05,
+          -0.00011375082249287516,
+          1.0148380994796753
+        ]
+      ]
+    }
+  ],
+  "runtime": {
+    "retrieval_target_s": 10.0,
+    "retrieval_queries": 60
+  },
+  "generated_at": "2026-09-27 21:11:34"
+}

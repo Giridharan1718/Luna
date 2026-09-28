@@ -1,0 +1,9 @@
+metric,value
+total_patches,973.0
+total_sensors,3.0
+total_source_images,11.0
+avg_patches_per_image,88.45
+avg_mean_intensity,86.69
+avg_std_deviation,20.17
+avg_entropy,5.475
+avg_texture_score,47.876

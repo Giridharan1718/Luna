@@ -1,0 +1,9 @@
+{
+  "artifacts_present": 12,
+  "artifacts_total": 12,
+  "end_to_end_status": "ok",
+  "end_to_end_runtime_s": 6.21,
+  "end_to_end_rmse_px": 0.0,
+  "end_to_end_inlier_ratio": 1.0,
+  "end_to_end_coverage": 0.953125
+}

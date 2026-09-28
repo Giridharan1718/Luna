@@ -1,0 +1,6 @@
+{
+  "pairs_extracted": 40,
+  "mean_kps_query": 398.1,
+  "mean_kps_ref": 401.1,
+  "backend": "superpoint"
+}

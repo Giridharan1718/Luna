@@ -1,0 +1,740 @@
+experiment,table,row_key,metric,value
+exp1_multimodal,controlled,OHRC <-> LRO NAC,match_count,381.6667
+exp1_multimodal,controlled,OHRC <-> LRO NAC,inlier_count,164.6667
+exp1_multimodal,controlled,OHRC <-> LRO NAC,inlier_ratio,0.9954
+exp1_multimodal,controlled,OHRC <-> LRO NAC,inlier_count_3px,161.0
+exp1_multimodal,controlled,OHRC <-> LRO NAC,inlier_ratio_3px,0.9728
+exp1_multimodal,controlled,OHRC <-> LRO NAC,coverage_score,0.6458
+exp1_multimodal,controlled,OHRC <-> LRO NAC,uniformity_score,0.5149
+exp1_multimodal,controlled,OHRC <-> LRO NAC,rmse_px,1.3198
+exp1_multimodal,controlled,OHRC <-> LRO NAC,rmse_gt_px,0.2535
+exp1_multimodal,controlled,OHRC <-> LRO NAC,ssim,0.5827
+exp1_multimodal,controlled,OHRC <-> LRO NAC,ncc,0.9737
+exp1_multimodal,controlled,OHRC <-> LRO NAC,runtime_s,5.2097
+exp1_multimodal,controlled,OHRC <-> LRO NAC,confidence,88.3667
+exp1_multimodal,controlled,OHRC <-> LRO NAC,runs,3.0
+exp1_multimodal,controlled,OHRC <-> LRO NAC,success_runs,3.0
+exp1_multimodal,controlled,OHRC <-> LRO NAC,success_rate,1.0
+exp1_multimodal,controlled,OHRC <-> LRO NAC,rmse_gt_px_median,0.2946
+exp1_multimodal,controlled,OHRC <-> LRO NAC,rmse_px_median,1.2549
+exp1_multimodal,controlled,OHRC <-> LRO NAC,coverage_score_median,0.6719
+exp1_multimodal,controlled,OHRC <-> LRO NAC,uniformity_score_median,0.5108
+exp1_multimodal,controlled,OHRC <-> LRO NAC,subpixel_share,1.0
+exp1_multimodal,controlled,OHRC <-> TMC-2,match_count,221.3333
+exp1_multimodal,controlled,OHRC <-> TMC-2,inlier_count,116.3333
+exp1_multimodal,controlled,OHRC <-> TMC-2,inlier_ratio,0.9939
+exp1_multimodal,controlled,OHRC <-> TMC-2,inlier_count_3px,111.3333
+exp1_multimodal,controlled,OHRC <-> TMC-2,inlier_ratio_3px,0.9488
+exp1_multimodal,controlled,OHRC <-> TMC-2,coverage_score,0.625
+exp1_multimodal,controlled,OHRC <-> TMC-2,uniformity_score,0.4893
+exp1_multimodal,controlled,OHRC <-> TMC-2,rmse_px,1.6456
+exp1_multimodal,controlled,OHRC <-> TMC-2,rmse_gt_px,0.3613
+exp1_multimodal,controlled,OHRC <-> TMC-2,ssim,0.3832
+exp1_multimodal,controlled,OHRC <-> TMC-2,ncc,0.9609
+exp1_multimodal,controlled,OHRC <-> TMC-2,runtime_s,5.0557
+exp1_multimodal,controlled,OHRC <-> TMC-2,confidence,86.7333
+exp1_multimodal,controlled,OHRC <-> TMC-2,runs,3.0
+exp1_multimodal,controlled,OHRC <-> TMC-2,success_runs,3.0
+exp1_multimodal,controlled,OHRC <-> TMC-2,success_rate,1.0
+exp1_multimodal,controlled,OHRC <-> TMC-2,rmse_gt_px_median,0.2247
+exp1_multimodal,controlled,OHRC <-> TMC-2,rmse_px_median,1.5926
+exp1_multimodal,controlled,OHRC <-> TMC-2,coverage_score_median,0.6562
+exp1_multimodal,controlled,OHRC <-> TMC-2,uniformity_score_median,0.4963
+exp1_multimodal,controlled,OHRC <-> TMC-2,subpixel_share,1.0
+exp1_multimodal,controlled,OHRC <-> IIRS,match_count,248.6667
+exp1_multimodal,controlled,OHRC <-> IIRS,inlier_count,126.6667
+exp1_multimodal,controlled,OHRC <-> IIRS,inlier_ratio,0.982
+exp1_multimodal,controlled,OHRC <-> IIRS,inlier_count_3px,123.3333
+exp1_multimodal,controlled,OHRC <-> IIRS,inlier_ratio_3px,0.9531
+exp1_multimodal,controlled,OHRC <-> IIRS,coverage_score,0.651
+exp1_multimodal,controlled,OHRC <-> IIRS,uniformity_score,0.509
+exp1_multimodal,controlled,OHRC <-> IIRS,rmse_px,1.6373
+exp1_multimodal,controlled,OHRC <-> IIRS,rmse_gt_px,0.4486
+exp1_multimodal,controlled,OHRC <-> IIRS,ssim,0.4051
+exp1_multimodal,controlled,OHRC <-> IIRS,ncc,0.9592
+exp1_multimodal,controlled,OHRC <-> IIRS,runtime_s,5.0667
+exp1_multimodal,controlled,OHRC <-> IIRS,confidence,86.1333
+exp1_multimodal,controlled,OHRC <-> IIRS,runs,3.0
+exp1_multimodal,controlled,OHRC <-> IIRS,success_runs,3.0
+exp1_multimodal,controlled,OHRC <-> IIRS,success_rate,1.0
+exp1_multimodal,controlled,OHRC <-> IIRS,rmse_gt_px_median,0.2827
+exp1_multimodal,controlled,OHRC <-> IIRS,rmse_px_median,1.4512
+exp1_multimodal,controlled,OHRC <-> IIRS,coverage_score_median,0.6719
+exp1_multimodal,controlled,OHRC <-> IIRS,uniformity_score_median,0.4951
+exp1_multimodal,controlled,OHRC <-> IIRS,subpixel_share,1.0
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,match_count,712.3333
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,inlier_count,224.3333
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,inlier_ratio,0.9754
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,inlier_count_3px,214.3333
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,inlier_ratio_3px,0.932
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,coverage_score,0.9948
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,uniformity_score,0.7831
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,rmse_px,1.8112
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,rmse_gt_px,0.2396
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,ssim,0.7449
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,ncc,0.9683
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,runtime_s,5.123
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,confidence,96.6
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,runs,3.0
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,success_runs,3.0
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,success_rate,1.0
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,rmse_gt_px_median,0.2393
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,rmse_px_median,1.7989
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,coverage_score_median,1.0
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,uniformity_score_median,0.7841
+exp1_multimodal,controlled,TMC-2 <-> LRO NAC,subpixel_share,1.0
+exp1_multimodal,controlled,TMC-2 <-> IIRS,match_count,576.6667
+exp1_multimodal,controlled,TMC-2 <-> IIRS,inlier_count,183.0
+exp1_multimodal,controlled,TMC-2 <-> IIRS,inlier_ratio,0.9701
+exp1_multimodal,controlled,TMC-2 <-> IIRS,inlier_count_3px,175.0
+exp1_multimodal,controlled,TMC-2 <-> IIRS,inlier_ratio_3px,0.9293
+exp1_multimodal,controlled,TMC-2 <-> IIRS,coverage_score,0.9688
+exp1_multimodal,controlled,TMC-2 <-> IIRS,uniformity_score,0.7138
+exp1_multimodal,controlled,TMC-2 <-> IIRS,rmse_px,1.881
+exp1_multimodal,controlled,TMC-2 <-> IIRS,rmse_gt_px,0.2697
+exp1_multimodal,controlled,TMC-2 <-> IIRS,ssim,0.7772
+exp1_multimodal,controlled,TMC-2 <-> IIRS,ncc,0.9741
+exp1_multimodal,controlled,TMC-2 <-> IIRS,runtime_s,5.1106
+exp1_multimodal,controlled,TMC-2 <-> IIRS,confidence,95.5333
+exp1_multimodal,controlled,TMC-2 <-> IIRS,runs,3.0
+exp1_multimodal,controlled,TMC-2 <-> IIRS,success_runs,3.0
+exp1_multimodal,controlled,TMC-2 <-> IIRS,success_rate,1.0
+exp1_multimodal,controlled,TMC-2 <-> IIRS,rmse_gt_px_median,0.27
+exp1_multimodal,controlled,TMC-2 <-> IIRS,rmse_px_median,1.9052
+exp1_multimodal,controlled,TMC-2 <-> IIRS,coverage_score_median,0.9688
+exp1_multimodal,controlled,TMC-2 <-> IIRS,uniformity_score_median,0.7167
+exp1_multimodal,controlled,TMC-2 <-> IIRS,subpixel_share,1.0
+exp2_sun_angle,correspondence,low,match_count,525.25
+exp2_sun_angle,correspondence,low,inlier_count,174.5
+exp2_sun_angle,correspondence,low,inlier_ratio,0.9921
+exp2_sun_angle,correspondence,low,inlier_count_3px,167.75
+exp2_sun_angle,correspondence,low,inlier_ratio_3px,0.9542
+exp2_sun_angle,correspondence,low,coverage_score,0.9453
+exp2_sun_angle,correspondence,low,uniformity_score,0.6993
+exp2_sun_angle,correspondence,low,rmse_px,1.6265
+exp2_sun_angle,correspondence,low,rmse_gt_px,0.131
+exp2_sun_angle,correspondence,low,ssim,0.772
+exp2_sun_angle,correspondence,low,ncc,0.9715
+exp2_sun_angle,correspondence,low,runtime_s,5.0951
+exp2_sun_angle,correspondence,low,confidence,96.95
+exp2_sun_angle,correspondence,low,runs,4.0
+exp2_sun_angle,correspondence,low,success_runs,4.0
+exp2_sun_angle,correspondence,low,success_rate,1.0
+exp2_sun_angle,correspondence,low,rmse_gt_px_median,0.1109
+exp2_sun_angle,correspondence,low,rmse_px_median,1.6416
+exp2_sun_angle,correspondence,low,coverage_score_median,0.9453
+exp2_sun_angle,correspondence,low,uniformity_score_median,0.7068
+exp2_sun_angle,correspondence,low,subpixel_share,1.0
+exp2_sun_angle,correspondence,medium,match_count,268.75
+exp2_sun_angle,correspondence,medium,inlier_count,108.0
+exp2_sun_angle,correspondence,medium,inlier_ratio,0.9836
+exp2_sun_angle,correspondence,medium,inlier_count_3px,101.0
+exp2_sun_angle,correspondence,medium,inlier_ratio_3px,0.9207
+exp2_sun_angle,correspondence,medium,coverage_score,0.8047
+exp2_sun_angle,correspondence,medium,uniformity_score,0.5907
+exp2_sun_angle,correspondence,medium,rmse_px,1.8573
+exp2_sun_angle,correspondence,medium,rmse_gt_px,0.1505
+exp2_sun_angle,correspondence,medium,ssim,0.8627
+exp2_sun_angle,correspondence,medium,ncc,0.9775
+exp2_sun_angle,correspondence,medium,runtime_s,4.9586
+exp2_sun_angle,correspondence,medium,confidence,93.0
+exp2_sun_angle,correspondence,medium,runs,4.0
+exp2_sun_angle,correspondence,medium,success_runs,4.0
+exp2_sun_angle,correspondence,medium,success_rate,1.0
+exp2_sun_angle,correspondence,medium,rmse_gt_px_median,0.1399
+exp2_sun_angle,correspondence,medium,rmse_px_median,1.8681
+exp2_sun_angle,correspondence,medium,coverage_score_median,0.8203
+exp2_sun_angle,correspondence,medium,uniformity_score_median,0.5865
+exp2_sun_angle,correspondence,medium,subpixel_share,1.0
+exp2_sun_angle,correspondence,high,match_count,158.75
+exp2_sun_angle,correspondence,high,inlier_count,76.75
+exp2_sun_angle,correspondence,high,inlier_ratio,0.8784
+exp2_sun_angle,correspondence,high,inlier_count_3px,62.5
+exp2_sun_angle,correspondence,high,inlier_ratio_3px,0.7321
+exp2_sun_angle,correspondence,high,coverage_score,0.5742
+exp2_sun_angle,correspondence,high,uniformity_score,0.4548
+exp2_sun_angle,correspondence,high,rmse_px,5.3975
+exp2_sun_angle,correspondence,high,rmse_gt_px,0.2057
+exp2_sun_angle,correspondence,high,ssim,0.7566
+exp2_sun_angle,correspondence,high,ncc,0.9706
+exp2_sun_angle,correspondence,high,runtime_s,6.3829
+exp2_sun_angle,correspondence,high,confidence,78.625
+exp2_sun_angle,correspondence,high,runs,4.0
+exp2_sun_angle,correspondence,high,success_runs,4.0
+exp2_sun_angle,correspondence,high,success_rate,1.0
+exp2_sun_angle,correspondence,high,rmse_gt_px_median,0.2019
+exp2_sun_angle,correspondence,high,rmse_px_median,4.9815
+exp2_sun_angle,correspondence,high,coverage_score_median,0.4922
+exp2_sun_angle,correspondence,high,uniformity_score_median,0.4036
+exp2_sun_angle,correspondence,high,subpixel_share,1.0
+exp2_sun_angle,retrieval,low,n,60.0
+exp2_sun_angle,retrieval,low,top1_acc,0.35
+exp2_sun_angle,retrieval,low,top5_acc,0.567
+exp2_sun_angle,retrieval,medium,n,60.0
+exp2_sun_angle,retrieval,medium,top1_acc,0.467
+exp2_sun_angle,retrieval,medium,top5_acc,0.767
+exp2_sun_angle,retrieval,high,n,60.0
+exp2_sun_angle,retrieval,high,top1_acc,0.367
+exp2_sun_angle,retrieval,high,top5_acc,0.617
+exp3_scale,x0.5,OHRC vs TMC-2,match_count,255.0
+exp3_scale,x0.5,OHRC vs TMC-2,inlier_count,130.0
+exp3_scale,x0.5,OHRC vs TMC-2,inlier_ratio,0.9701
+exp3_scale,x0.5,OHRC vs TMC-2,inlier_count_3px,116.0
+exp3_scale,x0.5,OHRC vs TMC-2,inlier_ratio_3px,0.8657
+exp3_scale,x0.5,OHRC vs TMC-2,coverage_score,0.5938
+exp3_scale,x0.5,OHRC vs TMC-2,uniformity_score,0.451
+exp3_scale,x0.5,OHRC vs TMC-2,rmse_px,2.7385
+exp3_scale,x0.5,OHRC vs TMC-2,rmse_gt_px,1.3044
+exp3_scale,x0.5,OHRC vs TMC-2,ssim,0.0827
+exp3_scale,x0.5,OHRC vs TMC-2,ncc,0.9232
+exp3_scale,x0.5,OHRC vs TMC-2,runtime_s,10.3247
+exp3_scale,x0.5,OHRC vs TMC-2,confidence,75.7
+exp3_scale,x0.5,OHRC vs TMC-2,runs,1.0
+exp3_scale,x0.5,OHRC vs TMC-2,success_runs,1.0
+exp3_scale,x0.5,OHRC vs TMC-2,success_rate,1.0
+exp3_scale,x0.5,OHRC vs TMC-2,rmse_gt_px_median,1.3044
+exp3_scale,x0.5,OHRC vs TMC-2,rmse_px_median,2.7385
+exp3_scale,x0.5,OHRC vs TMC-2,coverage_score_median,0.5938
+exp3_scale,x0.5,OHRC vs TMC-2,uniformity_score_median,0.451
+exp3_scale,x0.5,OHRC vs TMC-2,subpixel_share,0.0
+exp3_scale,x1.0,OHRC vs TMC-2,match_count,139.0
+exp3_scale,x1.0,OHRC vs TMC-2,inlier_count,71.0
+exp3_scale,x1.0,OHRC vs TMC-2,inlier_ratio,0.8554
+exp3_scale,x1.0,OHRC vs TMC-2,inlier_count_3px,64.0
+exp3_scale,x1.0,OHRC vs TMC-2,inlier_ratio_3px,0.7711
+exp3_scale,x1.0,OHRC vs TMC-2,coverage_score,0.5625
+exp3_scale,x1.0,OHRC vs TMC-2,uniformity_score,0.4275
+exp3_scale,x1.0,OHRC vs TMC-2,rmse_px,3.284
+exp3_scale,x1.0,OHRC vs TMC-2,rmse_gt_px,0.7824
+exp3_scale,x1.0,OHRC vs TMC-2,ssim,0.3011
+exp3_scale,x1.0,OHRC vs TMC-2,ncc,0.946
+exp3_scale,x1.0,OHRC vs TMC-2,runtime_s,5.0378
+exp3_scale,x1.0,OHRC vs TMC-2,confidence,73.8
+exp3_scale,x1.0,OHRC vs TMC-2,runs,1.0
+exp3_scale,x1.0,OHRC vs TMC-2,success_runs,1.0
+exp3_scale,x1.0,OHRC vs TMC-2,success_rate,1.0
+exp3_scale,x1.0,OHRC vs TMC-2,rmse_gt_px_median,0.7824
+exp3_scale,x1.0,OHRC vs TMC-2,rmse_px_median,3.284
+exp3_scale,x1.0,OHRC vs TMC-2,coverage_score_median,0.5625
+exp3_scale,x1.0,OHRC vs TMC-2,uniformity_score_median,0.4275
+exp3_scale,x1.0,OHRC vs TMC-2,subpixel_share,1.0
+exp3_scale,x2.0,OHRC vs TMC-2,match_count,134.0
+exp3_scale,x2.0,OHRC vs TMC-2,inlier_count,56.0
+exp3_scale,x2.0,OHRC vs TMC-2,inlier_ratio,0.9333
+exp3_scale,x2.0,OHRC vs TMC-2,inlier_count_3px,48.0
+exp3_scale,x2.0,OHRC vs TMC-2,inlier_ratio_3px,0.8
+exp3_scale,x2.0,OHRC vs TMC-2,coverage_score,0.2656
+exp3_scale,x2.0,OHRC vs TMC-2,uniformity_score,0.1932
+exp3_scale,x2.0,OHRC vs TMC-2,rmse_px,2.6053
+exp3_scale,x2.0,OHRC vs TMC-2,rmse_gt_px,0.2941
+exp3_scale,x2.0,OHRC vs TMC-2,ssim,0.5836
+exp3_scale,x2.0,OHRC vs TMC-2,ncc,0.971
+exp3_scale,x2.0,OHRC vs TMC-2,runtime_s,4.9861
+exp3_scale,x2.0,OHRC vs TMC-2,confidence,72.2
+exp3_scale,x2.0,OHRC vs TMC-2,runs,1.0
+exp3_scale,x2.0,OHRC vs TMC-2,success_runs,1.0
+exp3_scale,x2.0,OHRC vs TMC-2,success_rate,1.0
+exp3_scale,x2.0,OHRC vs TMC-2,rmse_gt_px_median,0.2941
+exp3_scale,x2.0,OHRC vs TMC-2,rmse_px_median,2.6053
+exp3_scale,x2.0,OHRC vs TMC-2,coverage_score_median,0.2656
+exp3_scale,x2.0,OHRC vs TMC-2,uniformity_score_median,0.1932
+exp3_scale,x2.0,OHRC vs TMC-2,subpixel_share,1.0
+exp3_scale,x4.0,OHRC vs TMC-2,match_count,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,inlier_count,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,inlier_ratio,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,inlier_count_3px,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,inlier_ratio_3px,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,coverage_score,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,uniformity_score,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,rmse_px,
+exp3_scale,x4.0,OHRC vs TMC-2,rmse_gt_px,
+exp3_scale,x4.0,OHRC vs TMC-2,ssim,
+exp3_scale,x4.0,OHRC vs TMC-2,ncc,
+exp3_scale,x4.0,OHRC vs TMC-2,runtime_s,35.0969
+exp3_scale,x4.0,OHRC vs TMC-2,confidence,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,runs,1.0
+exp3_scale,x4.0,OHRC vs TMC-2,success_runs,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,success_rate,0.0
+exp3_scale,x4.0,OHRC vs TMC-2,rmse_gt_px_median,
+exp3_scale,x4.0,OHRC vs TMC-2,rmse_px_median,
+exp3_scale,x4.0,OHRC vs TMC-2,coverage_score_median,
+exp3_scale,x4.0,OHRC vs TMC-2,uniformity_score_median,
+exp3_scale,x4.0,OHRC vs TMC-2,subpixel_share,
+exp3_scale,x0.5,OHRC vs LRO NAC,match_count,106.0
+exp3_scale,x0.5,OHRC vs LRO NAC,inlier_count,62.0
+exp3_scale,x0.5,OHRC vs LRO NAC,inlier_ratio,0.9394
+exp3_scale,x0.5,OHRC vs LRO NAC,inlier_count_3px,58.0
+exp3_scale,x0.5,OHRC vs LRO NAC,inlier_ratio_3px,0.8788
+exp3_scale,x0.5,OHRC vs LRO NAC,coverage_score,0.5
+exp3_scale,x0.5,OHRC vs LRO NAC,uniformity_score,0.3509
+exp3_scale,x0.5,OHRC vs LRO NAC,rmse_px,4.1915
+exp3_scale,x0.5,OHRC vs LRO NAC,rmse_gt_px,1.1271
+exp3_scale,x0.5,OHRC vs LRO NAC,ssim,0.0735
+exp3_scale,x0.5,OHRC vs LRO NAC,ncc,0.9106
+exp3_scale,x0.5,OHRC vs LRO NAC,runtime_s,5.0488
+exp3_scale,x0.5,OHRC vs LRO NAC,confidence,70.4
+exp3_scale,x0.5,OHRC vs LRO NAC,runs,1.0
+exp3_scale,x0.5,OHRC vs LRO NAC,success_runs,1.0
+exp3_scale,x0.5,OHRC vs LRO NAC,success_rate,1.0
+exp3_scale,x0.5,OHRC vs LRO NAC,rmse_gt_px_median,1.1271
+exp3_scale,x0.5,OHRC vs LRO NAC,rmse_px_median,4.1915
+exp3_scale,x0.5,OHRC vs LRO NAC,coverage_score_median,0.5
+exp3_scale,x0.5,OHRC vs LRO NAC,uniformity_score_median,0.3509
+exp3_scale,x0.5,OHRC vs LRO NAC,subpixel_share,0.0
+exp3_scale,x1.0,OHRC vs LRO NAC,match_count,353.0
+exp3_scale,x1.0,OHRC vs LRO NAC,inlier_count,160.0
+exp3_scale,x1.0,OHRC vs LRO NAC,inlier_ratio,0.9877
+exp3_scale,x1.0,OHRC vs LRO NAC,inlier_count_3px,155.0
+exp3_scale,x1.0,OHRC vs LRO NAC,inlier_ratio_3px,0.9568
+exp3_scale,x1.0,OHRC vs LRO NAC,coverage_score,0.6875
+exp3_scale,x1.0,OHRC vs LRO NAC,uniformity_score,0.5131
+exp3_scale,x1.0,OHRC vs LRO NAC,rmse_px,1.4791
+exp3_scale,x1.0,OHRC vs LRO NAC,rmse_gt_px,0.2573
+exp3_scale,x1.0,OHRC vs LRO NAC,ssim,0.6014
+exp3_scale,x1.0,OHRC vs LRO NAC,ncc,0.9789
+exp3_scale,x1.0,OHRC vs LRO NAC,runtime_s,5.0611
+exp3_scale,x1.0,OHRC vs LRO NAC,confidence,89.2
+exp3_scale,x1.0,OHRC vs LRO NAC,runs,1.0
+exp3_scale,x1.0,OHRC vs LRO NAC,success_runs,1.0
+exp3_scale,x1.0,OHRC vs LRO NAC,success_rate,1.0
+exp3_scale,x1.0,OHRC vs LRO NAC,rmse_gt_px_median,0.2573
+exp3_scale,x1.0,OHRC vs LRO NAC,rmse_px_median,1.4791
+exp3_scale,x1.0,OHRC vs LRO NAC,coverage_score_median,0.6875
+exp3_scale,x1.0,OHRC vs LRO NAC,uniformity_score_median,0.5131
+exp3_scale,x1.0,OHRC vs LRO NAC,subpixel_share,1.0
+exp3_scale,x2.0,OHRC vs LRO NAC,match_count,180.0
+exp3_scale,x2.0,OHRC vs LRO NAC,inlier_count,65.0
+exp3_scale,x2.0,OHRC vs LRO NAC,inlier_ratio,0.9701
+exp3_scale,x2.0,OHRC vs LRO NAC,inlier_count_3px,59.0
+exp3_scale,x2.0,OHRC vs LRO NAC,inlier_ratio_3px,0.8806
+exp3_scale,x2.0,OHRC vs LRO NAC,coverage_score,0.2656
+exp3_scale,x2.0,OHRC vs LRO NAC,uniformity_score,0.1933
+exp3_scale,x2.0,OHRC vs LRO NAC,rmse_px,2.1153
+exp3_scale,x2.0,OHRC vs LRO NAC,rmse_gt_px,0.312
+exp3_scale,x2.0,OHRC vs LRO NAC,ssim,0.6833
+exp3_scale,x2.0,OHRC vs LRO NAC,ncc,0.9751
+exp3_scale,x2.0,OHRC vs LRO NAC,runtime_s,5.1307
+exp3_scale,x2.0,OHRC vs LRO NAC,confidence,74.0
+exp3_scale,x2.0,OHRC vs LRO NAC,runs,1.0
+exp3_scale,x2.0,OHRC vs LRO NAC,success_runs,1.0
+exp3_scale,x2.0,OHRC vs LRO NAC,success_rate,1.0
+exp3_scale,x2.0,OHRC vs LRO NAC,rmse_gt_px_median,0.312
+exp3_scale,x2.0,OHRC vs LRO NAC,rmse_px_median,2.1153
+exp3_scale,x2.0,OHRC vs LRO NAC,coverage_score_median,0.2656
+exp3_scale,x2.0,OHRC vs LRO NAC,uniformity_score_median,0.1933
+exp3_scale,x2.0,OHRC vs LRO NAC,subpixel_share,1.0
+exp3_scale,x4.0,OHRC vs LRO NAC,match_count,3.0
+exp3_scale,x4.0,OHRC vs LRO NAC,inlier_count,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,inlier_ratio,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,inlier_count_3px,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,inlier_ratio_3px,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,coverage_score,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,uniformity_score,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,rmse_px,
+exp3_scale,x4.0,OHRC vs LRO NAC,rmse_gt_px,
+exp3_scale,x4.0,OHRC vs LRO NAC,ssim,
+exp3_scale,x4.0,OHRC vs LRO NAC,ncc,
+exp3_scale,x4.0,OHRC vs LRO NAC,runtime_s,35.7161
+exp3_scale,x4.0,OHRC vs LRO NAC,confidence,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,runs,1.0
+exp3_scale,x4.0,OHRC vs LRO NAC,success_runs,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,success_rate,0.0
+exp3_scale,x4.0,OHRC vs LRO NAC,rmse_gt_px_median,
+exp3_scale,x4.0,OHRC vs LRO NAC,rmse_px_median,
+exp3_scale,x4.0,OHRC vs LRO NAC,coverage_score_median,
+exp3_scale,x4.0,OHRC vs LRO NAC,uniformity_score_median,
+exp3_scale,x4.0,OHRC vs LRO NAC,subpixel_share,
+exp3_scale,x0.5,TMC-2 vs LRO NAC,match_count,201.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,inlier_count,124.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,inlier_ratio,1.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,inlier_count_3px,124.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,inlier_ratio_3px,1.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,coverage_score,0.9062
+exp3_scale,x0.5,TMC-2 vs LRO NAC,uniformity_score,0.7281
+exp3_scale,x0.5,TMC-2 vs LRO NAC,rmse_px,1.1342
+exp3_scale,x0.5,TMC-2 vs LRO NAC,rmse_gt_px,0.1357
+exp3_scale,x0.5,TMC-2 vs LRO NAC,ssim,0.1848
+exp3_scale,x0.5,TMC-2 vs LRO NAC,ncc,0.9291
+exp3_scale,x0.5,TMC-2 vs LRO NAC,runtime_s,5.3208
+exp3_scale,x0.5,TMC-2 vs LRO NAC,confidence,96.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,runs,1.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,success_runs,1.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,success_rate,1.0
+exp3_scale,x0.5,TMC-2 vs LRO NAC,rmse_gt_px_median,0.1357
+exp3_scale,x0.5,TMC-2 vs LRO NAC,rmse_px_median,1.1342
+exp3_scale,x0.5,TMC-2 vs LRO NAC,coverage_score_median,0.9062
+exp3_scale,x0.5,TMC-2 vs LRO NAC,uniformity_score_median,0.7281
+exp3_scale,x0.5,TMC-2 vs LRO NAC,subpixel_share,1.0
+exp3_scale,x1.0,TMC-2 vs LRO NAC,match_count,780.0
+exp3_scale,x1.0,TMC-2 vs LRO NAC,inlier_count,233.0
+exp3_scale,x1.0,TMC-2 vs LRO NAC,inlier_ratio,0.9957
+exp3_scale,x1.0,TMC-2 vs LRO NAC,inlier_count_3px,231.0
+exp3_scale,x1.0,TMC-2 vs LRO NAC,inlier_ratio_3px,0.9872
+exp3_scale,x1.0,TMC-2 vs LRO NAC,coverage_score,0.9844
+exp3_scale,x1.0,TMC-2 vs LRO NAC,uniformity_score,0.762
+exp3_scale,x1.0,TMC-2 vs LRO NAC,rmse_px,1.4141
+exp3_scale,x1.0,TMC-2 vs LRO NAC,rmse_gt_px,0.2309
+exp3_scale,x1.0,TMC-2 vs LRO NAC,ssim,0.8173
+exp3_scale,x1.0,TMC-2 vs LRO NAC,ncc,0.976
+exp3_scale,x1.0,TMC-2 vs LRO NAC,runtime_s,5.2473
+exp3_scale,x1.0,TMC-2 vs LRO NAC,confidence,97.1
+exp3_scale,x1.0,TMC-2 vs LRO NAC,runs,1.0
+exp3_scale,x1.0,TMC-2 vs LRO NAC,success_runs,1.0
+exp3_scale,x1.0,TMC-2 vs LRO NAC,success_rate,1.0
+exp3_scale,x1.0,TMC-2 vs LRO NAC,rmse_gt_px_median,0.2309
+exp3_scale,x1.0,TMC-2 vs LRO NAC,rmse_px_median,1.4141
+exp3_scale,x1.0,TMC-2 vs LRO NAC,coverage_score_median,0.9844
+exp3_scale,x1.0,TMC-2 vs LRO NAC,uniformity_score_median,0.762
+exp3_scale,x1.0,TMC-2 vs LRO NAC,subpixel_share,1.0
+exp3_scale,x2.0,TMC-2 vs LRO NAC,match_count,33.0
+exp3_scale,x2.0,TMC-2 vs LRO NAC,inlier_count,10.0
+exp3_scale,x2.0,TMC-2 vs LRO NAC,inlier_ratio,0.5882
+exp3_scale,x2.0,TMC-2 vs LRO NAC,inlier_count_3px,9.0
+exp3_scale,x2.0,TMC-2 vs LRO NAC,inlier_ratio_3px,0.5294
+exp3_scale,x2.0,TMC-2 vs LRO NAC,coverage_score,0.125
+exp3_scale,x2.0,TMC-2 vs LRO NAC,uniformity_score,0.0892
+exp3_scale,x2.0,TMC-2 vs LRO NAC,rmse_px,6.2358
+exp3_scale,x2.0,TMC-2 vs LRO NAC,rmse_gt_px,4.115
+exp3_scale,x2.0,TMC-2 vs LRO NAC,ssim,0.7976
+exp3_scale,x2.0,TMC-2 vs LRO NAC,ncc,0.9548
+exp3_scale,x2.0,TMC-2 vs LRO NAC,runtime_s,5.2769
+exp3_scale,x2.0,TMC-2 vs LRO NAC,confidence,26.5
+exp3_scale,x2.0,TMC-2 vs LRO NAC,runs,1.0
+exp3_scale,x2.0,TMC-2 vs LRO NAC,success_runs,1.0
+exp3_scale,x2.0,TMC-2 vs LRO NAC,success_rate,1.0
+exp3_scale,x2.0,TMC-2 vs LRO NAC,rmse_gt_px_median,4.115
+exp3_scale,x2.0,TMC-2 vs LRO NAC,rmse_px_median,6.2358
+exp3_scale,x2.0,TMC-2 vs LRO NAC,coverage_score_median,0.125
+exp3_scale,x2.0,TMC-2 vs LRO NAC,uniformity_score_median,0.0892
+exp3_scale,x2.0,TMC-2 vs LRO NAC,subpixel_share,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,match_count,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,inlier_count,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,inlier_ratio,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,inlier_count_3px,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,inlier_ratio_3px,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,coverage_score,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,uniformity_score,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,rmse_px,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,rmse_gt_px,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,ssim,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,ncc,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,runtime_s,35.0879
+exp3_scale,x4.0,TMC-2 vs LRO NAC,confidence,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,runs,1.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,success_runs,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,success_rate,0.0
+exp3_scale,x4.0,TMC-2 vs LRO NAC,rmse_gt_px_median,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,rmse_px_median,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,coverage_score_median,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,uniformity_score_median,
+exp3_scale,x4.0,TMC-2 vs LRO NAC,subpixel_share,
+exp3_scale,x0.5,TMC-2 vs IIRS,match_count,182.0
+exp3_scale,x0.5,TMC-2 vs IIRS,inlier_count,106.0
+exp3_scale,x0.5,TMC-2 vs IIRS,inlier_ratio,1.0
+exp3_scale,x0.5,TMC-2 vs IIRS,inlier_count_3px,106.0
+exp3_scale,x0.5,TMC-2 vs IIRS,inlier_ratio_3px,1.0
+exp3_scale,x0.5,TMC-2 vs IIRS,coverage_score,0.8594
+exp3_scale,x0.5,TMC-2 vs IIRS,uniformity_score,0.6256
+exp3_scale,x0.5,TMC-2 vs IIRS,rmse_px,0.969
+exp3_scale,x0.5,TMC-2 vs IIRS,rmse_gt_px,0.2507
+exp3_scale,x0.5,TMC-2 vs IIRS,ssim,0.2134
+exp3_scale,x0.5,TMC-2 vs IIRS,ncc,0.9476
+exp3_scale,x0.5,TMC-2 vs IIRS,runtime_s,5.4091
+exp3_scale,x0.5,TMC-2 vs IIRS,confidence,93.6
+exp3_scale,x0.5,TMC-2 vs IIRS,runs,1.0
+exp3_scale,x0.5,TMC-2 vs IIRS,success_runs,1.0
+exp3_scale,x0.5,TMC-2 vs IIRS,success_rate,1.0
+exp3_scale,x0.5,TMC-2 vs IIRS,rmse_gt_px_median,0.2507
+exp3_scale,x0.5,TMC-2 vs IIRS,rmse_px_median,0.969
+exp3_scale,x0.5,TMC-2 vs IIRS,coverage_score_median,0.8594
+exp3_scale,x0.5,TMC-2 vs IIRS,uniformity_score_median,0.6256
+exp3_scale,x0.5,TMC-2 vs IIRS,subpixel_share,1.0
+exp3_scale,x1.0,TMC-2 vs IIRS,match_count,708.0
+exp3_scale,x1.0,TMC-2 vs IIRS,inlier_count,216.0
+exp3_scale,x1.0,TMC-2 vs IIRS,inlier_ratio,0.9863
+exp3_scale,x1.0,TMC-2 vs IIRS,inlier_count_3px,206.0
+exp3_scale,x1.0,TMC-2 vs IIRS,inlier_ratio_3px,0.9406
+exp3_scale,x1.0,TMC-2 vs IIRS,coverage_score,0.9688
+exp3_scale,x1.0,TMC-2 vs IIRS,uniformity_score,0.7893
+exp3_scale,x1.0,TMC-2 vs IIRS,rmse_px,1.7368
+exp3_scale,x1.0,TMC-2 vs IIRS,rmse_gt_px,0.1915
+exp3_scale,x1.0,TMC-2 vs IIRS,ssim,0.8498
+exp3_scale,x1.0,TMC-2 vs IIRS,ncc,0.9822
+exp3_scale,x1.0,TMC-2 vs IIRS,runtime_s,5.441
+exp3_scale,x1.0,TMC-2 vs IIRS,confidence,96.8
+exp3_scale,x1.0,TMC-2 vs IIRS,runs,1.0
+exp3_scale,x1.0,TMC-2 vs IIRS,success_runs,1.0
+exp3_scale,x1.0,TMC-2 vs IIRS,success_rate,1.0
+exp3_scale,x1.0,TMC-2 vs IIRS,rmse_gt_px_median,0.1915
+exp3_scale,x1.0,TMC-2 vs IIRS,rmse_px_median,1.7368
+exp3_scale,x1.0,TMC-2 vs IIRS,coverage_score_median,0.9688
+exp3_scale,x1.0,TMC-2 vs IIRS,uniformity_score_median,0.7893
+exp3_scale,x1.0,TMC-2 vs IIRS,subpixel_share,1.0
+exp3_scale,x2.0,TMC-2 vs IIRS,match_count,2.0
+exp3_scale,x2.0,TMC-2 vs IIRS,inlier_count,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,inlier_ratio,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,inlier_count_3px,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,inlier_ratio_3px,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,coverage_score,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,uniformity_score,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,rmse_px,
+exp3_scale,x2.0,TMC-2 vs IIRS,rmse_gt_px,
+exp3_scale,x2.0,TMC-2 vs IIRS,ssim,
+exp3_scale,x2.0,TMC-2 vs IIRS,ncc,
+exp3_scale,x2.0,TMC-2 vs IIRS,runtime_s,34.9463
+exp3_scale,x2.0,TMC-2 vs IIRS,confidence,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,runs,1.0
+exp3_scale,x2.0,TMC-2 vs IIRS,success_runs,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,success_rate,0.0
+exp3_scale,x2.0,TMC-2 vs IIRS,rmse_gt_px_median,
+exp3_scale,x2.0,TMC-2 vs IIRS,rmse_px_median,
+exp3_scale,x2.0,TMC-2 vs IIRS,coverage_score_median,
+exp3_scale,x2.0,TMC-2 vs IIRS,uniformity_score_median,
+exp3_scale,x2.0,TMC-2 vs IIRS,subpixel_share,
+exp3_scale,x4.0,TMC-2 vs IIRS,match_count,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,inlier_count,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,inlier_ratio,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,inlier_count_3px,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,inlier_ratio_3px,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,coverage_score,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,uniformity_score,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,rmse_px,
+exp3_scale,x4.0,TMC-2 vs IIRS,rmse_gt_px,
+exp3_scale,x4.0,TMC-2 vs IIRS,ssim,
+exp3_scale,x4.0,TMC-2 vs IIRS,ncc,
+exp3_scale,x4.0,TMC-2 vs IIRS,runtime_s,34.4517
+exp3_scale,x4.0,TMC-2 vs IIRS,confidence,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,runs,1.0
+exp3_scale,x4.0,TMC-2 vs IIRS,success_runs,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,success_rate,0.0
+exp3_scale,x4.0,TMC-2 vs IIRS,rmse_gt_px_median,
+exp3_scale,x4.0,TMC-2 vs IIRS,rmse_px_median,
+exp3_scale,x4.0,TMC-2 vs IIRS,coverage_score_median,
+exp3_scale,x4.0,TMC-2 vs IIRS,uniformity_score_median,
+exp3_scale,x4.0,TMC-2 vs IIRS,subpixel_share,
+exp5_benchmark,ranking,sift_ransac,pairs,9.0
+exp5_benchmark,ranking,sift_ransac,success_rate,0.778
+exp5_benchmark,ranking,sift_ransac,gt_evaluated,7.0
+exp5_benchmark,ranking,sift_ransac,median_rmse_gt_px,0.2432
+exp5_benchmark,ranking,sift_ransac,median_rmse_px,0.8029
+exp5_benchmark,ranking,sift_ransac,inlier_ratio,0.7736
+exp5_benchmark,ranking,sift_ransac,inlier_ratio_3px,0.7627
+exp5_benchmark,ranking,sift_ransac,coverage_score,0.6228
+exp5_benchmark,ranking,sift_ransac,match_count,205.7
+exp5_benchmark,ranking,sift_ransac,runtime_s,0.063
+exp5_benchmark,ranking,lunarai_full,pairs,9.0
+exp5_benchmark,ranking,lunarai_full,success_rate,0.778
+exp5_benchmark,ranking,lunarai_full,gt_evaluated,7.0
+exp5_benchmark,ranking,lunarai_full,median_rmse_gt_px,0.2941
+exp5_benchmark,ranking,lunarai_full,median_rmse_px,1.8429
+exp5_benchmark,ranking,lunarai_full,inlier_ratio,0.9154
+exp5_benchmark,ranking,lunarai_full,inlier_ratio_3px,0.8528
+exp5_benchmark,ranking,lunarai_full,coverage_score,0.6562
+exp5_benchmark,ranking,lunarai_full,match_count,334.1
+exp5_benchmark,ranking,lunarai_full,runtime_s,10.153
+exp5_benchmark,ranking,splg_ransac,pairs,9.0
+exp5_benchmark,ranking,splg_ransac,success_rate,0.778
+exp5_benchmark,ranking,splg_ransac,gt_evaluated,7.0
+exp5_benchmark,ranking,splg_ransac,median_rmse_gt_px,0.6002
+exp5_benchmark,ranking,splg_ransac,median_rmse_px,1.4869
+exp5_benchmark,ranking,splg_ransac,inlier_ratio,0.9239
+exp5_benchmark,ranking,splg_ransac,inlier_ratio_3px,0.8708
+exp5_benchmark,ranking,splg_ransac,coverage_score,0.6562
+exp5_benchmark,ranking,splg_ransac,match_count,334.1
+exp5_benchmark,ranking,splg_ransac,runtime_s,5.116
+exp5_benchmark,ranking,orb_ransac,pairs,9.0
+exp5_benchmark,ranking,orb_ransac,success_rate,0.667
+exp5_benchmark,ranking,orb_ransac,gt_evaluated,6.0
+exp5_benchmark,ranking,orb_ransac,median_rmse_gt_px,1.246
+exp5_benchmark,ranking,orb_ransac,median_rmse_px,1.8032
+exp5_benchmark,ranking,orb_ransac,inlier_ratio,0.6921
+exp5_benchmark,ranking,orb_ransac,inlier_ratio_3px,0.6468
+exp5_benchmark,ranking,orb_ransac,coverage_score,0.4375
+exp5_benchmark,ranking,orb_ransac,match_count,238.0
+exp5_benchmark,ranking,orb_ransac,runtime_s,0.054
+exp5_benchmark,ranking,akaze_ransac,pairs,9.0
+exp5_benchmark,ranking,akaze_ransac,success_rate,0.0
+exp5_benchmark,ranking,akaze_ransac,gt_evaluated,0.0
+exp5_benchmark,ranking,akaze_ransac,median_rmse_gt_px,
+exp5_benchmark,ranking,akaze_ransac,median_rmse_px,
+exp5_benchmark,ranking,akaze_ransac,inlier_ratio,
+exp5_benchmark,ranking,akaze_ransac,inlier_ratio_3px,
+exp5_benchmark,ranking,akaze_ransac,coverage_score,
+exp5_benchmark,ranking,akaze_ransac,match_count,
+exp5_benchmark,ranking,akaze_ransac,runtime_s,0.0
+exp5_benchmark,ranking,superglue_ransac,pairs,9.0
+exp5_benchmark,ranking,superglue_ransac,success_rate,0.0
+exp5_benchmark,ranking,superglue_ransac,gt_evaluated,0.0
+exp5_benchmark,ranking,superglue_ransac,median_rmse_gt_px,
+exp5_benchmark,ranking,superglue_ransac,median_rmse_px,
+exp5_benchmark,ranking,superglue_ransac,inlier_ratio,
+exp5_benchmark,ranking,superglue_ransac,inlier_ratio_3px,
+exp5_benchmark,ranking,superglue_ransac,coverage_score,
+exp5_benchmark,ranking,superglue_ransac,match_count,
+exp5_benchmark,ranking,superglue_ransac,runtime_s,0.725
+exp6_retrieval,summary,all_queries,n_queries,60.0
+exp6_retrieval,summary,all_queries,top1_accuracy,0.75
+exp6_retrieval,summary,all_queries,top5_accuracy,0.9833333333333333
+exp6_retrieval,summary,all_queries,top10_accuracy,0.9833333333333333
+exp6_retrieval,summary,all_queries,top1_accuracy_cross_sensor,0.0
+exp6_retrieval,summary,all_queries,top5_accuracy_cross_sensor,0.0
+exp6_retrieval,summary,all_queries,top10_accuracy_cross_sensor,0.0
+exp6_retrieval,summary,all_queries,mAP,0.7898186021112776
+exp6_retrieval,summary,all_queries,mrr,0.8570621468926553
+exp6_retrieval,summary,all_queries,geo_top1_median_deg,0.015380999999997869
+exp6_retrieval,summary,all_queries,geo_same_source_top1_median_deg,0.007915999999999812
+exp6_retrieval,summary,all_queries,geo_random_pair_median_deg,3.161094173606791
+exp6_retrieval,summary,all_queries,geo_localization_gain,205.51941834778162
+exp7_uniformity,protocol,with_anms,match_count,490.7143
+exp7_uniformity,protocol,with_anms,inlier_count,
+exp7_uniformity,protocol,with_anms,inlier_ratio,0.9928
+exp7_uniformity,protocol,with_anms,inlier_count_3px,
+exp7_uniformity,protocol,with_anms,inlier_ratio_3px,
+exp7_uniformity,protocol,with_anms,coverage_score,0.8482
+exp7_uniformity,protocol,with_anms,uniformity_score,0.6405
+exp7_uniformity,protocol,with_anms,rmse_px,
+exp7_uniformity,protocol,with_anms,rmse_gt_px,0.2567
+exp7_uniformity,protocol,with_anms,ssim,
+exp7_uniformity,protocol,with_anms,ncc,
+exp7_uniformity,protocol,with_anms,runtime_s,
+exp7_uniformity,protocol,with_anms,confidence,
+exp7_uniformity,protocol,with_anms,runs,7.0
+exp7_uniformity,protocol,with_anms,success_runs,7.0
+exp7_uniformity,protocol,with_anms,success_rate,1.0
+exp7_uniformity,protocol,with_anms,rmse_gt_px_median,0.2177
+exp7_uniformity,protocol,with_anms,rmse_px_median,
+exp7_uniformity,protocol,with_anms,coverage_score_median,0.8594
+exp7_uniformity,protocol,with_anms,uniformity_score_median,0.639
+exp7_uniformity,protocol,with_anms,subpixel_share,1.0
+exp7_uniformity,protocol,without_anms,match_count,490.7143
+exp7_uniformity,protocol,without_anms,inlier_count,
+exp7_uniformity,protocol,without_anms,inlier_ratio,0.9931
+exp7_uniformity,protocol,without_anms,inlier_count_3px,
+exp7_uniformity,protocol,without_anms,inlier_ratio_3px,
+exp7_uniformity,protocol,without_anms,coverage_score,0.8527
+exp7_uniformity,protocol,without_anms,uniformity_score,0.58
+exp7_uniformity,protocol,without_anms,rmse_px,
+exp7_uniformity,protocol,without_anms,rmse_gt_px,0.2555
+exp7_uniformity,protocol,without_anms,ssim,
+exp7_uniformity,protocol,without_anms,ncc,
+exp7_uniformity,protocol,without_anms,runtime_s,
+exp7_uniformity,protocol,without_anms,confidence,
+exp7_uniformity,protocol,without_anms,runs,7.0
+exp7_uniformity,protocol,without_anms,success_runs,7.0
+exp7_uniformity,protocol,without_anms,success_rate,1.0
+exp7_uniformity,protocol,without_anms,rmse_gt_px_median,0.2188
+exp7_uniformity,protocol,without_anms,rmse_px_median,
+exp7_uniformity,protocol,without_anms,coverage_score_median,0.875
+exp7_uniformity,protocol,without_anms,uniformity_score_median,0.5441
+exp7_uniformity,protocol,without_anms,subpixel_share,1.0
+exp8_ablation,variant,full,match_count,414.25
+exp8_ablation,variant,full,inlier_count,160.25
+exp8_ablation,variant,full,inlier_ratio,0.989
+exp8_ablation,variant,full,inlier_count_3px,158.0
+exp8_ablation,variant,full,inlier_ratio_3px,0.9749
+exp8_ablation,variant,full,coverage_score,0.8047
+exp8_ablation,variant,full,uniformity_score,0.6056
+exp8_ablation,variant,full,rmse_px,1.3568
+exp8_ablation,variant,full,rmse_gt_px,0.2004
+exp8_ablation,variant,full,ssim,
+exp8_ablation,variant,full,ncc,
+exp8_ablation,variant,full,runtime_s,5.0141
+exp8_ablation,variant,full,confidence,
+exp8_ablation,variant,full,runs,4.0
+exp8_ablation,variant,full,success_runs,4.0
+exp8_ablation,variant,full,success_rate,1.0
+exp8_ablation,variant,full,rmse_gt_px_median,0.2081
+exp8_ablation,variant,full,rmse_px_median,1.3197
+exp8_ablation,variant,full,coverage_score_median,0.8047
+exp8_ablation,variant,full,uniformity_score_median,0.609
+exp8_ablation,variant,full,subpixel_share,1.0
+exp8_ablation,variant,no_anms,match_count,414.25
+exp8_ablation,variant,no_anms,inlier_count,411.5
+exp8_ablation,variant,no_anms,inlier_ratio,0.9936
+exp8_ablation,variant,no_anms,inlier_count_3px,407.0
+exp8_ablation,variant,no_anms,inlier_ratio_3px,0.983
+exp8_ablation,variant,no_anms,coverage_score,0.8086
+exp8_ablation,variant,no_anms,uniformity_score,0.558
+exp8_ablation,variant,no_anms,rmse_px,1.2475
+exp8_ablation,variant,no_anms,rmse_gt_px,0.2046
+exp8_ablation,variant,no_anms,ssim,
+exp8_ablation,variant,no_anms,ncc,
+exp8_ablation,variant,no_anms,runtime_s,4.9805
+exp8_ablation,variant,no_anms,confidence,
+exp8_ablation,variant,no_anms,runs,4.0
+exp8_ablation,variant,no_anms,success_runs,4.0
+exp8_ablation,variant,no_anms,success_rate,1.0
+exp8_ablation,variant,no_anms,rmse_gt_px_median,0.2106
+exp8_ablation,variant,no_anms,rmse_px_median,1.2266
+exp8_ablation,variant,no_anms,coverage_score_median,0.8047
+exp8_ablation,variant,no_anms,uniformity_score_median,0.5562
+exp8_ablation,variant,no_anms,subpixel_share,1.0
+exp8_ablation,variant,no_ecc,match_count,414.25
+exp8_ablation,variant,no_ecc,inlier_count,160.25
+exp8_ablation,variant,no_ecc,inlier_ratio,0.989
+exp8_ablation,variant,no_ecc,inlier_count_3px,158.0
+exp8_ablation,variant,no_ecc,inlier_ratio_3px,0.9749
+exp8_ablation,variant,no_ecc,coverage_score,0.8047
+exp8_ablation,variant,no_ecc,uniformity_score,0.6056
+exp8_ablation,variant,no_ecc,rmse_px,1.3281
+exp8_ablation,variant,no_ecc,rmse_gt_px,0.2756
+exp8_ablation,variant,no_ecc,ssim,
+exp8_ablation,variant,no_ecc,ncc,
+exp8_ablation,variant,no_ecc,runtime_s,4.9693
+exp8_ablation,variant,no_ecc,confidence,
+exp8_ablation,variant,no_ecc,runs,4.0
+exp8_ablation,variant,no_ecc,success_runs,4.0
+exp8_ablation,variant,no_ecc,success_rate,1.0
+exp8_ablation,variant,no_ecc,rmse_gt_px_median,0.2808
+exp8_ablation,variant,no_ecc,rmse_px_median,1.2933
+exp8_ablation,variant,no_ecc,coverage_score_median,0.8047
+exp8_ablation,variant,no_ecc,uniformity_score_median,0.609
+exp8_ablation,variant,no_ecc,subpixel_share,1.0
+exp8_ablation,variant,no_magsac,match_count,414.25
+exp8_ablation,variant,no_magsac,inlier_count,162.0
+exp8_ablation,variant,no_magsac,inlier_ratio,1.0
+exp8_ablation,variant,no_magsac,inlier_count_3px,158.0
+exp8_ablation,variant,no_magsac,inlier_ratio_3px,0.9749
+exp8_ablation,variant,no_magsac,coverage_score,0.8047
+exp8_ablation,variant,no_magsac,uniformity_score,0.6056
+exp8_ablation,variant,no_magsac,rmse_px,1.3567
+exp8_ablation,variant,no_magsac,rmse_gt_px,0.1998
+exp8_ablation,variant,no_magsac,ssim,
+exp8_ablation,variant,no_magsac,ncc,
+exp8_ablation,variant,no_magsac,runtime_s,5.0833
+exp8_ablation,variant,no_magsac,confidence,
+exp8_ablation,variant,no_magsac,runs,4.0
+exp8_ablation,variant,no_magsac,success_runs,4.0
+exp8_ablation,variant,no_magsac,success_rate,1.0
+exp8_ablation,variant,no_magsac,rmse_gt_px_median,0.2079
+exp8_ablation,variant,no_magsac,rmse_px_median,1.3197
+exp8_ablation,variant,no_magsac,coverage_score_median,0.8047
+exp8_ablation,variant,no_magsac,uniformity_score_median,0.609
+exp8_ablation,variant,no_magsac,subpixel_share,1.0
+exp8_ablation,faiss,with_faiss,runs,3.0
+exp8_ablation,faiss,with_faiss,success_rate,1.0
+exp8_ablation,faiss,with_faiss,match_count,196.7
+exp8_ablation,faiss,with_faiss,inlier_ratio,0.9969
+exp8_ablation,faiss,with_faiss,rmse_gt_px,0.5731
+exp8_ablation,faiss,with_faiss,retrieval_similarity,0.8197
+exp8_ablation,faiss,with_faiss,confidence,86.17
+exp8_ablation,faiss,without_faiss,runs,3.0
+exp8_ablation,faiss,without_faiss,success_rate,0.0
+exp8_ablation,faiss,without_faiss,match_count,0.3
+exp8_ablation,faiss,without_faiss,inlier_ratio,0.0
+exp8_ablation,faiss,without_faiss,rmse_gt_px,
+exp8_ablation,faiss,without_faiss,retrieval_similarity,0.658
+exp8_ablation,faiss,without_faiss,confidence,0.0
+exp4_subpixel,summary,before_vs_after_ecc,n_runs_reported,38.0
+exp4_subpixel,summary,before_vs_after_ecc,n_gt_pairs,38.0
+exp4_subpixel,summary,before_vs_after_ecc,median_rmse_gt_before_ecc,0.5247
+exp4_subpixel,summary,before_vs_after_ecc,median_rmse_gt_after_ecc,0.245
+exp4_subpixel,summary,before_vs_after_ecc,mean_rmse_gt_before_ecc,2.8754
+exp4_subpixel,summary,before_vs_after_ecc,mean_rmse_gt_after_ecc,0.4123
+exp4_subpixel,summary,before_vs_after_ecc,iqr_rmse_gt_after_ecc,0.1128
+exp4_subpixel,summary,before_vs_after_ecc,max_rmse_gt_after_ecc,4.115
+exp4_subpixel,summary,before_vs_after_ecc,mean_rmse_reproj_before_ecc,2.2951
+exp4_subpixel,summary,before_vs_after_ecc,mean_rmse_reproj_after_ecc,2.324
+exp4_subpixel,summary,before_vs_after_ecc,subpixel_share,0.921
+exp4_subpixel,summary,before_vs_after_ecc,ecc_applied_share,1.0
+exp4_subpixel,summary,before_vs_after_ecc,ecc_rejected_runs,0.0

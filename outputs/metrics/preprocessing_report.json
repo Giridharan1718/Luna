@@ -1,0 +1,140 @@
+{
+  "metrics": {
+    "images_processed": 13,
+    "images_skipped": 2,
+    "mean_contrast_gain": 2.348,
+    "fallback_to_browse_png": 2
+  },
+  "records": [
+    {
+      "image_id": "ch2_ohr_ncp_20241115T1326321339_d_img_d18.img",
+      "sensor": "OHRC",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\OHRC\\ch2_ohr_ncp_20241115T1326321339_d_img_d18_proc.png",
+      "contrast_before": 42.74,
+      "contrast_after": 70.04,
+      "mean_before": 26.09,
+      "mean_after": 42.12
+    },
+    {
+      "image_id": "ch2_ohr_ncp_20241115T1525004388_d_img_d18.img",
+      "sensor": "OHRC",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\OHRC\\ch2_ohr_ncp_20241115T1525004388_d_img_d18_proc.png",
+      "contrast_before": 50.51,
+      "contrast_after": 73.38,
+      "mean_before": 31.31,
+      "mean_after": 46.59
+    },
+    {
+      "image_id": "ch2_ohr_ncp_20251010T0942085687_d_img_d18.img",
+      "sensor": "OHRC",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\OHRC\\ch2_ohr_ncp_20251010T0942085687_d_img_d18_proc.png",
+      "contrast_before": 46.66,
+      "contrast_after": 79.2,
+      "mean_before": 40.38,
+      "mean_after": 61.67
+    },
+    {
+      "image_id": "ch2_tmc_nca_20240124T0838058366_d_img_d18.img",
+      "sensor": "TMC-2",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\TMC-2\\ch2_tmc_nca_20240124T0838058366_d_img_d18_proc.png",
+      "contrast_before": 27.31,
+      "contrast_after": 67.49,
+      "mean_before": 69.49,
+      "mean_after": 132.33
+    },
+    {
+      "image_id": "ch2_tmc_ncf_20211122T1925079181_d_img_d18.img",
+      "sensor": "TMC-2",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\TMC-2\\ch2_tmc_ncf_20211122T1925079181_d_img_d18_proc.png",
+      "contrast_before": 25.7,
+      "contrast_after": 64.14,
+      "mean_before": 78.17,
+      "mean_after": 138.71
+    },
+    {
+      "image_id": "ch2_tmc_ncf_20211122T2123225722_d_img_d18.img",
+      "sensor": "TMC-2",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\TMC-2\\ch2_tmc_ncf_20211122T2123225722_d_img_d18_proc.png",
+      "contrast_before": 26.77,
+      "contrast_after": 67.38,
+      "mean_before": 72.56,
+      "mean_after": 137.92
+    },
+    {
+      "image_id": "ch2_tmc_ncf_20211122T2321361810_d_img_d18.img",
+      "sensor": "TMC-2",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\TMC-2\\ch2_tmc_ncf_20211122T2321361810_d_img_d18_proc.png",
+      "contrast_before": 25.95,
+      "contrast_after": 67.53,
+      "mean_before": 72.21,
+      "mean_after": 141.92
+    },
+    {
+      "image_id": "ch2_tmc_ncf_20260701T0716265753_d_img_d18.img",
+      "sensor": "TMC-2",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\TMC-2\\ch2_tmc_ncf_20260701T0716265753_d_img_d18_proc.png",
+      "contrast_before": 16.86,
+      "contrast_after": 53.93,
+      "mean_before": 81.22,
+      "mean_after": 143.31
+    },
+    {
+      "image_id": "ch2_tmc_ncn_20211122T1925079214_d_img_d18.img",
+      "sensor": "TMC-2",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\TMC-2\\ch2_tmc_ncn_20211122T1925079214_d_img_d18_proc.png",
+      "contrast_before": 13.7,
+      "contrast_after": 58.11,
+      "mean_before": 85.57,
+      "mean_after": 151.06
+    },
+    {
+      "image_id": "ch2_tmc_ncn_20211123T0119537815_d_img_d18.img",
+      "sensor": "TMC-2",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\TMC-2\\ch2_tmc_ncn_20211123T0119537815_d_img_d18_proc.png",
+      "contrast_before": 15.58,
+      "contrast_after": 61.2,
+      "mean_before": 84.23,
+      "mean_after": 160.77
+    },
+    {
+      "image_id": "ch2_iir_nri_20210126T1349194455_d_img_d32.hdr",
+      "sensor": "IIRS",
+      "source": "browse_png_fallback",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\IIRS\\ch2_iir_nri_20210126T1349194455_d_img_d32_proc.png",
+      "contrast_before": 50.31,
+      "contrast_after": 62.39,
+      "mean_before": 98.86,
+      "mean_after": 101.95
+    },
+    {
+      "image_id": "ch2_iir_nri_20240124T1430209615_d_img_d18.hdr",
+      "sensor": "IIRS",
+      "source": "browse_png_fallback",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\IIRS\\ch2_iir_nri_20240124T1430209615_d_img_d18_proc.png",
+      "contrast_before": 41.31,
+      "contrast_after": 58.76,
+      "mean_before": 116.8,
+      "mean_after": 124.13
+    },
+    {
+      "image_id": "quickmap-lroc.png",
+      "sensor": "LRO NAC",
+      "source": "binary",
+      "processed_path": "D:\\lunar ai\\outputs\\processed\\LRONAC\\quickmap-lroc_proc.png",
+      "contrast_before": 36.81,
+      "contrast_after": 59.73,
+      "mean_before": 98.56,
+      "mean_after": 126.79
+    }
+  ]
+}

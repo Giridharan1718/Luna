@@ -1,0 +1,7 @@
+{
+  "silhouette_score": 0.17739462852478027,
+  "avg_intra_sensor_similarity": 0.9067981839179993,
+  "avg_inter_sensor_similarity": 0.5041057467460632,
+  "sensor_bias_score": 0.40269243717193604,
+  "is_sensor_biased": true
+}

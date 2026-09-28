@@ -1,0 +1,8 @@
+{
+  "cross_sensor_recall@1": 0.0,
+  "same_sensor_recall@1": 0.7333333333333333,
+  "cross_sensor_total": 0,
+  "same_sensor_total": 60,
+  "cross_sensor_correct": 0,
+  "same_sensor_correct": 44
+}

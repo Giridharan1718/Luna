@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-09-28T06:57:21.548618",
+  "total_patches": 973,
+  "total_sensors": 3,
+  "total_source_images": 11,
+  "patch_size": 256,
+  "overlap_ratio": 0.25,
+  "stride": 192,
+  "sensors": [
+    "LRO",
+    "OHRC",
+    "TMC"
+  ],
+  "quality_thresholds": {
+    "min_mean_intensity": 10,
+    "max_mean_intensity": 245,
+    "min_std_deviation": 5,
+    "min_entropy": 1.0,
+    "min_texture_score": 0.1
+  }
+}

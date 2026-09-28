@@ -1,0 +1,37 @@
+{
+  "method": "geographic cell split (no location leakage)",
+  "unit": "geo cell = round(lat/lon, 0) deg",
+  "fractions": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "seed": 42,
+  "total_patches": 940,
+  "total_geo_cells": 19,
+  "patch_counts": {
+    "train": 768,
+    "test": 148,
+    "val": 24
+  },
+  "per_sensor": {
+    "IIRS": {
+      "train": 142,
+      "test": 87
+    },
+    "LRO NAC": {
+      "train": 36
+    },
+    "OHRC": {
+      "train": 24,
+      "val": 10,
+      "test": 1
+    },
+    "TMC-2": {
+      "train": 566,
+      "test": 60,
+      "val": 14
+    }
+  },
+  "leakage_check": "patches sharing a geo cell always share a split"
+}

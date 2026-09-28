@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-09-27 20:26:14",
+  "pipeline_runs": 25,
+  "sun_angle_bins": [
+    {
+      "sun_bin": "0-10",
+      "catalog_share": 0.015,
+      "catalog_patches": 11,
+      "pairs_built": 4,
+      "pairs_solved": 4,
+      "median_rmse_gt_px": 0.163,
+      "mean_inlier_ratio_3px": 0.996,
+      "median_coverage": 0.516,
+      "retrieval_top1": 0.091,
+      "retrieval_top5": 1.0
+    },
+    {
+      "sun_bin": "10-20",
+      "catalog_share": 0.0,
+      "catalog_patches": 0,
+      "pairs_built": 0,
+      "pairs_solved": 0,
+      "median_rmse_gt_px": NaN,
+      "mean_inlier_ratio_3px": NaN,
+      "median_coverage": NaN,
+      "retrieval_top1": NaN,
+      "retrieval_top5": NaN
+    },
+    {
+      "sun_bin": "20-40",
+      "catalog_share": 0.914,
+      "catalog_patches": 684,
+      "pairs_built": 4,
+      "pairs_solved": 4,
+      "median_rmse_gt_px": 0.253,
+      "mean_inlier_ratio_3px": 0.931,
+      "median_coverage": 0.594,
+      "retrieval_top1": 0.6,
+      "retrieval_top5": 0.85
+    },
+    {
+      "sun_bin": "40-60",
+      "catalog_share": 0.071,
+      "catalog_patches": 53,
+      "pairs_built": 4,
+      "pairs_solved": 4,
+      "median_rmse_gt_px": 0.182,
+      "mean_inlier_ratio_3px": 0.961,
+      "median_coverage": 0.969,
+      "retrieval_top1": 1.0,
+      "retrieval_top5": 1.0
+    },
+    {
+      "sun_bin": "60+",
+      "catalog_share": 0.0,
+      "catalog_patches": 0,
+      "pairs_built": 0,
+      "pairs_solved": 0,
+      "median_rmse_gt_px": NaN,
+      "mean_inlier_ratio_3px": NaN,
+      "median_coverage": NaN,
+      "retrieval_top1": NaN,
+      "retrieval_top5": NaN
+    }
+  ],
+  "localization_summary": {
+    "queries": 55,
+    "median_error_m": 466.4,
+    "mean_error_m": 28048.5,
+    "p90_error_m": 67827.8,
+    "within_1km": 0.545,
+    "within_10km": 0.727,
+    "chance_median_m": 87773.7,
+    "localization_gain": 188.2
+  },
+  "confidence_category_counts": {
+    "High": 11,
+    "Low": 9,
+    "Medium": 5
+  },
+  "crater_pairs": 25,
+  "crater_matched_total": 34
+}
