@@ -27,7 +27,8 @@ import pandas as pd
 import torch
 
 from .config import Config
-from .geometry import (compute_ssim_ncc, confidence_score, ecc_refine,
+from .validation_ext import confidence_engine
+from .geometry import (compute_ssim_ncc, ecc_refine,
                        magsac_homography, warp_image)
 from .lunadna import LunaDNA, compute_embeddings
 from .matching import SuperPointLightGlue, anms, coverage_score, uniformity_score
@@ -659,10 +660,29 @@ class ValidationSuite:
             out["rmse_px"] = self._rmse_reproj(kp0, kp1, H_final)
             out["rmse_gt_px"] = (self._rmse_vs_gt(H_final, pair.H_gt, src.shape)
                                  if pair.H_gt is not None else float("nan"))
-            out["confidence"] = confidence_score(
-                out["rmse_gt_px"] if pair.H_gt is not None else out["rmse_px"],
-                out["inlier_ratio"], out["coverage_score"], out["inlier_count"],
-                out.get("ecc_correlation"))
+            # documented confidence engine (validation_ext.confidence_engine):
+            # 25*embedding-similarity + 30*inlier@3px + 30*(1-rmse/4) + 15*coverage.
+            # Retrieved pairs carry their retrieval similarity in pair.meta;
+            # otherwise the source patch's index top-1 similarity is measured.
+            sim_axis = 0.0
+            try:
+                if pair.meta.get("similarity") is not None:
+                    sim_axis = float(pair.meta["similarity"])
+                elif pair.meta.get("src_path"):
+                    emb = compute_embeddings(self.model, [str(pair.meta["src_path"])],
+                                             device=self.device,
+                                             size=int(self.cfg.LUNADNA.get("input_size", 224)))
+                    sim_axis = float(self.index.search(
+                        np.ascontiguousarray(emb, np.float32), 1)[0][0][0])
+            except Exception:  # noqa: BLE001 - sim axis must never break a run
+                sim_axis = 0.0
+            inl3 = out.get("inlier_ratio_3px", out.get("inlier_ratio", 0.0))
+            _ce = confidence_engine(sim_axis, inl3,
+                                    out["rmse_gt_px"] if pair.H_gt is not None else out["rmse_px"],
+                                    out["coverage_score"])
+            out["confidence"] = _ce["confidence_score"]
+            out["confidence_axes"] = _ce["axes"]
+            out["confidence_sim_axis"] = round(float(sim_axis), 4)
             out["status"] = "ok"
             out["runtime_s"] = time.perf_counter() - t0
             out["timings"] = timings

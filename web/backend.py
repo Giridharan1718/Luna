@@ -50,23 +50,31 @@ def health():
 
 @app.route('/api/kpi')
 def kpi():
-    """Get KPI metrics from the evaluation report."""
+    """KPIs computed live from artifacts - no hard-coded numbers."""
     try:
-        report_path = cfg.OUTPUTS_ROOT / "metrics" / "evaluation_report.json"
-        if report_path.exists():
-            with open(report_path) as f:
-                data = json.load(f)
-            summary = data.get("summary", {})
-            return jsonify({
-                "images_processed": 17,
-                "registered_pairs": summary.get("n_pairs_evaluated", 27),
-                "avg_inlier_ratio": summary.get("inlier_ratio_mean", 0.88),
-                "avg_rmse": summary.get("rmse_px_mean", 0.30),
-                "coverage": summary.get("coverage_score_mean", 0.226),
-                "runtime": 10.2,
-            })
-        else:
-            return jsonify({"error": "Report not found"}), 404
+        import pandas as pd
+
+        from lunarai_lib import appdata
+        h = appdata.headline(cfg)
+        sub = appdata.table("subpixel_accuracy_report.csv")
+        modal = appdata.table("multi_modal_validation.csv")
+        return jsonify({
+            "images_processed": h.get("images"),
+            "patches_indexed": h.get("patches"),
+            "checkpoint_epoch": h.get("epoch"),
+            "matcher": h.get("matcher"),
+            "registered_pairs": int(len(sub)) if sub is not None else 0,
+            "median_rmse_px": (float(pd.to_numeric(sub.rmse_after_ecc_px,
+                                                   errors="coerce").median())
+                               if sub is not None else None),
+            "share_err_lt_1px": h.get("share_err_lt_1px"),
+            "inlier_ratio_3px_mean": (float(pd.to_numeric(modal.inlier_ratio_3px,
+                                                          errors="coerce").mean())
+                                      if modal is not None else None),
+            "coverage_mean": (float(pd.to_numeric(modal.coverage_score,
+                                                  errors="coerce").mean())
+                              if modal is not None else None),
+        })
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -80,8 +88,21 @@ def datasets():
         if idx is not None:
             datasets = idx.groupby("dataset_name").agg({
                 "patch_path": "count",
-                "resolution": "first",
             }).rename(columns={"patch_path": "image_count"}).to_dict("index")
+            # Add static sensor information
+            sensor_info = {
+                "OHRC": {"resolution": "0.25 m/pixel", "sensor_type": "Optical"},
+                "TMC-2": {"resolution": "2.0 m/pixel", "sensor_type": "Optical"},
+                "IIRS": {"resolution": "N/A", "sensor_type": "Spectroscopic"},
+                "LRO NAC": {"resolution": "0.5 m/pixel", "sensor_type": "Optical"},
+                "KAGUYA": {"resolution": "10 m/pixel", "sensor_type": "Optical"},
+            }
+            for sensor in datasets:
+                if sensor in sensor_info:
+                    datasets[sensor].update(sensor_info[sensor])
+                else:
+                    datasets[sensor]["resolution"] = "N/A"
+                    datasets[sensor]["sensor_type"] = "Unknown"
             return jsonify(datasets)
         else:
             return jsonify({"error": "No dataset index found"}), 404
@@ -123,6 +144,11 @@ def register_pair():
         
         result = run["result"]
         
+        # Convert numpy arrays to lists for JSON serialization
+        homography = run.get("H")
+        if homography is not None:
+            homography = homography.tolist() if hasattr(homography, 'tolist') else homography
+        
         return jsonify({
             "status": result.get("status"),
             "inlier_ratio": result.get("inlier_ratio_3px"),
@@ -132,7 +158,7 @@ def register_pair():
             "ssim": result.get("ssim"),
             "ncc": result.get("ncc"),
             "confidence": result.get("confidence"),
-            "homography": run.get("H"),
+            "homography": homography,
             "images": {k: str(v) for k, v in (run.get("images") or {}).items()},
         })
     except Exception as e:

@@ -188,10 +188,13 @@ def retrieve(query: str | Path | np.ndarray, k: int = 10, cfg: Config | None = N
     suite = suite or session(cfg)
     if isinstance(query, np.ndarray):
         emb = np.atleast_2d(query.astype(np.float32))
-        self_id = None
+        self_path = None
     else:
         emb = embed([query], cfg=cfg, suite=suite)
-        self_id = Path(query).stem if drop_self else None
+        # suite.mapping stores full patch paths, so the query must be dropped
+        # by exact path match (a filename-stem comparison never matches and the
+        # query used to come back as a ghost rank-1 hit with empty metadata).
+        self_path = str(Path(query).resolve()) if drop_self else None
     scores, idx = suite.index.search(emb, max(k + 1, k))
     idx_df = appdata.patch_index(cfg)
     meta = {}
@@ -202,19 +205,22 @@ def retrieve(query: str | Path | np.ndarray, k: int = 10, cfg: Config | None = N
     for score, i in zip(np.ravel(scores), np.ravel(idx)):
         if i < 0 or i >= len(suite.mapping):
             continue
-        pid = str(suite.mapping[i])
-        if self_id and (pid == self_id or pid.startswith(f"{self_id}_")):
+        mapped = str(suite.mapping[i])
+        # drop the query itself (works whether mapping stores ids or full paths)
+        if self_path is not None and (
+                Path(mapped).resolve() == self_path or Path(mapped).stem == Path(str(query)).stem):
             continue
-        m = meta.get(pid, {})
+        # mapping may hold patch ids OR full paths; resolve metadata via stem
+        m = meta.get(mapped) or meta.get(Path(mapped).stem, {})
         rows.append({
             "rank": len(rows) + 1,
-            "patch_id": pid,
+            "patch_id": Path(mapped).stem,
             "sensor": m.get("dataset_name", "-"),
             "similarity": round(float(score), 4),
             "latitude": m.get("latitude"),
             "longitude": m.get("longitude"),
             "sun_angle": m.get("sun_angle"),
-            "patch_path": m.get("patch_path"),
+            "patch_path": m.get("patch_path", mapped),
         })
         if len(rows) >= k:
             break

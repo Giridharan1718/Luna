@@ -131,10 +131,16 @@ class LunarAIPipeline:
         result["ssim"] = ssim
         result["ncc"] = ncc
 
-        # --- confidence ---
-        result["confidence"] = geometry.confidence_score(
-            rmse_after, inlier_ratio, result["coverage_score"], inlier_count,
-            ecc_cc if ecc_ok else None)
+        # --- confidence (documentated 25/30/30/15 engine) ---
+        # embedding-similarity axis is unavailable in this standalone demo path
+        # (no index here), so it is neutral; the residual 3 px ratio is measured.
+        from .validation_ext import confidence_engine
+        from .models import residual_ratio_3px
+        _rmse = rmse_after if np.isfinite(rmse_after) else rmse_before
+        _inl3, _ = residual_ratio_3px(kp0_sel, kp1_sel, H_refined)
+        _ce = confidence_engine(0.0, _inl3, _rmse, result["coverage_score"])
+        result["confidence"] = _ce["confidence_score"]
+        result["confidence_axes"] = _ce["axes"]
 
         result["status"] = "ok"
         result["runtime_s"] = time.perf_counter() - t_start
